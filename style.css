@@ -2,23 +2,25 @@ body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
   padding:20px;
-  margin:20px;
-  background-image: url(orderedfoods.png);
+  margin:10px;
+  background-image: url(cart.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   color:#004e46;
 }
 #page_title{
-  font-size: 30px;
-  /*text-align: center;*/
+  font-size: 40px;
+  padding:10px;
 }
 
 #introduction{
   width:45%;
-  font-size: 25px;
+  font-size: 30px;
 }
 #sub_introduction{
-  width:45%;
-  font-size: 20px;
+  /*width:45%;*/
+  font-size: 25px;
 }
 
 
@@ -40,7 +42,7 @@ input:focus{
 
 
 .Div_ingredients_form {
-    /*margin: 0 auto;*/
+    margin: 0 auto;
     background: transparent;
     background: #ffffff;
     border-radius: 5px;
@@ -94,17 +96,23 @@ input:focus{
 
 
 
+
+  #div_submit_page{
+    text-align:center; /*keep it centered?*/
+ }
+
   #submit_page{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     color:#004e46;
     background-color: transparent;
     border-radius: 10px;
     border-color: #009688;
     cursor:pointer;
+    text-align: center;
 
-    transition: background-color 0.25s linear;
-    transition: color 0.25s linear;
+    transition: background-color 0.3s linear;
+    transition: color 0.3s linear;
 }
 
 #submit_page:hover{
