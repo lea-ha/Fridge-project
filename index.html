@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is in my fridge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="page_title">What's in my fridge?</h1>
+    <br>
+
+    <h2 id="introduction">Too lazy to go to the supermarket?</h2>
+    <p id="sub_introduction">You're in the right place! just provide us 
+     with the ingredients you already have at home and we'll take care of the rest!
+    </p>
+
+    <div class="Div_ingredients_form">
+        <form id="ingredients_form" onsubmit="return false;"> <!--onsubmit="return false;"-->
+            <!--<label for="new_single_ingredient">Search for an ingredient: </label>-->
+            <input id="new_single_ingredient" placeholder="select your ingredients" type="text">
+        </form>
+        <div class="Div_results">
+            <ul></ul>
+        </div>
+    </div>
+
+    <!--List of elements added/removed from the fridge, elements will be added/removed using JS-->
+    <div class="Div_ingredient_list">
+        <ul id="ingredients"></ul>
+    </div>
+
+    <div class="options">
+        <label for="select_options">Filter results by: </label>
+        <select id="select_options">
+            <option id="select_option_calories">Calories</option>
+            <option id="select_option_Time">Preparation Time</option>
+        </select>
+    </div>
+
+    <!--This button should work as a submit for the whole page, it is not implemented yet-->
+    <br><br><br><!--search for a better way to do this spacing-->
+    <div id="div_submit_page">
+        <a href="results.html">
+            <input type="submit" id="submit_page">
+        </a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
