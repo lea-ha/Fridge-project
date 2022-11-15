@@ -1,3 +1,30 @@
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  padding:20px;
+  margin:20px;
+  background-image: url(orderedfoods.png);
+  background-size: cover;
+  color:#004e46;
+}
+#page_title{
+  font-size: 30px;
+  /*text-align: center;*/
+}
+
+#introduction{
+  width:45%;
+  font-size: 25px;
+}
+#sub_introduction{
+  width:45%;
+  font-size: 20px;
+}
+
+
+
+
+
 #new_single_ingredient{
     border: 0px;
     border-radius: 5px;
@@ -11,40 +38,42 @@ input:focus{
 
 
 
+
 .Div_ingredients_form {
     /*margin: 0 auto;*/
+    background: transparent;
     background: #ffffff;
     border-radius: 5px;
     box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.15);
-    /*position: relative;*/
+    position: relative;
     width: 230px;
   }
 
 .Div_results {
     padding: 0px;
-  }
+}
   
-  .Div_results ul {margin: 0; padding: 0; }
-  .Div_results ul .listItem {
+.Div_results ul {margin: 0; padding: 0; }
+.Div_results ul .listItem {
     list-style: none;
     border-radius: 3px;
     opacity: 0;
     display: none;
     padding: 8px 12px;
     transition: all .5s linear;
-  }
+}
   
-  .show .Div_results ul .listItem {
+.show .Div_results ul .listItem {
     opacity: 1;
     display: block;
     cursor:pointer;
-  }
+}
   
   .show .Div_results {
     margin-top: 5px;
     padding: 10px;
     /*added*/
-    height: 200px;
+    height: 160px;
     width: auto;
     overflow: hidden;
     overflow-y: scroll;
@@ -55,10 +84,32 @@ input:focus{
   }
 
 
+  
   #select_options{
     border: 0px;
     border-radius: 5px;
     box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.15);
   }
-  
-  
+
+
+
+
+  #submit_page{
+    font-size: 15px;
+    font-weight: bold;
+    color:#004e46;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: #009688;
+    cursor:pointer;
+
+    transition: background-color 0.25s linear;
+    transition: color 0.25s linear;
+}
+
+#submit_page:hover{
+  background-color: #004e46;
+  color:#ffffff;
+  transition: 0.3s;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
