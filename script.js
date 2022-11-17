@@ -24,7 +24,9 @@ function renderResults(results) {
     }
   
     const content = results.map((item) => {
-        return `<li class="listItem">${item}</li>`;
+        return `<li class="listItem">
+        <input type="checkbox" class="listItemCheckbox">
+	      <label>${item}</label></li>`;
       }).join('');
   
     searchDiv.classList.add('show');

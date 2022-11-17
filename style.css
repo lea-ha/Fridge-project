@@ -74,7 +74,6 @@ input:focus{
   .show .Div_results {
     margin-top: 5px;
     padding: 10px;
-    /*added*/
     height: 160px;
     width: auto;
     overflow: hidden;
@@ -82,10 +81,8 @@ input:focus{
   }
   
   .Div_results ul .listItem:hover {
-    background: #ececec
+    background: #ececec;
   }
-
-
   
   #select_options{
     border: 0px;
