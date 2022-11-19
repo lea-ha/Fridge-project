@@ -120,6 +120,6 @@ input:focus{
 }
 
 .hide {
-  display:none;
   visibility:hidden;
+  display:none;
 }
