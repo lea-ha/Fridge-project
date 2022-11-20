@@ -1,0 +1,20 @@
+[
+    {
+        "recipe":"Tabbouleh",
+        "category":["Lunch"],
+        "ingredients":["tomato","parsley","onion","salt","oil","bulgur","lemon"],
+        "calories":444
+    },
+    {
+        "recipe":"Zaatar Manouche",
+        "category":["Breakfast"],
+        "ingredients":["zaatar","dough","oil"],
+        "calories":350
+    },
+    {
+        "recipe":"Pancakes",
+        "category" : ["Breakfast","Sweet"],
+        "ingredients":["flour","milk","water","butter","sugar"],
+        "calories":149
+    }
+]
