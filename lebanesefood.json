@@ -22,5 +22,119 @@
         "category":["Alcoholic Drink"],
         "ingredients":["red wine","apple","orange juice","lemon"],
         "calories":"200"
+    },
+    {
+        "recipe":"mac and cheese",
+        "category":["Lunch"],
+        "ingredients":["pasta","cheese","butter","flour"],
+        "calories":"250"
+    },
+    {
+        "recipe":"Chicken Shawarma sandwich",
+        "category":["Lunch"],
+        "ingredients":["chicken","bread","salt","garlic","oil"],
+        "calories":"517"
+    },
+    {
+        "recipe":"Lasagna",
+        "category":["Lunch"],
+        "ingredients":["meat","onion","garlic","tomato","lasagna noodles","cheese"],
+        "calories":"355"
+    },
+    {
+        "recipe":"Kousa",
+        "category":["Lunch"],
+        "ingredients":["zucchini","rice","meat","tomato"],
+        "calories":"470"
+    },
+    {
+        "recipe":"rez aa djej",
+        "category":["Lunch"],
+        "ingredients":["rice","meat","chicken"],
+        "calories":"300"
+    },
+    {
+        "recipe":"rez aa lahme",
+        "category":["Lunch"],
+        "ingredients":["rice","meat"],
+        "calories":"270"
+    },
+    {
+        "recipe":"hot chocolate",
+        "category":["Drink"],
+        "ingredients":["milk","cocoa powder","sugar","vanilla"],
+        "calories":"194"
+    },
+    {
+        "recipe":"marble cake",
+        "category":["Dessert"],
+        "ingredients":["eggs","vanilla","sugar","oil","milk","flour","baking powder","cocoa powder"],
+        "calories":"416"
+    },
+   {
+        "recipe":"crab salad",
+        "category":["Lunch"],
+        "ingredients":["pasta","oil","crab","cucumber","soy sauce","mayonaise","lettuce"],
+        "calories":"381"
+    },
+    {
+        "recipe":"french toast",
+        "category":["Breakfast"],
+        "ingredients":["toast","butter","egg","milk"],
+        "calories":"229"
+    },
+     {
+        "recipe":"loubia b zeit",
+        "category":["Lunch"],
+        "ingredients":["green beans","garlic","tomato","olive oil","onion","salt"],
+        "calories":"425.4"
+    }, 
+      {
+        "recipe":"fattoush",
+        "category":["Lunch"],
+        "ingredients":["lettuce","cucumber","tomato","olive oil","lemon","salt","parsley","onion"],
+        "calories":"109"
+    }, 
+     {
+        "recipe":"cinnamon rolls",
+        "category":["Dessert"],
+        "ingredients":["butter","egg","milk","flour","sugar","yeast","vanilla","cinnamon"],
+        "calories":"436"
+    }, 
+     {
+        "recipe":"chicken burger",
+        "category":["Lunch"],
+        "ingredients":["lettuce","chicken","tomato","bread","mayonnaise"],
+        "calories":"283"
+    }, 
+     {
+        "recipe":"chocolate brownies",
+        "category":["Dessert"],
+        "ingredients":["egg","cocoa powder","butter","oil","vannilla","flour"],
+        "calories":"466"
+    },
+    {
+        "recipe":"chicken burrito",
+        "category":["Lunch"],
+        "ingredients":["chicken", "beans","corn","cheese","guacamole"],
+        "calories":"886"
+    },
+     {
+        "recipe":"garlic bread",
+        "category":["Lunch"],
+        "ingredients":["bread","garlic","cheese","butter"],
+        "calories":"350"
+    },
+     {
+        "recipe":"pesto pasta",
+        "category":["Lunch"],
+        "ingredients":["pasta", "onion","pesto","cheese","oil","salt"],
+        "calories":"263"
+    },
+      {
+        "recipe":"omelette",
+        "category":["Breakfast"],
+        "ingredients":["egg", "butter","tomato","cheese","herbs"],
+        "calories":"154"
     }
 ]
