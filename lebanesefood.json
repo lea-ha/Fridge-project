@@ -16,5 +16,11 @@
         "category" : ["Breakfast","Sweet"],
         "ingredients":["flour","milk","water","butter","sugar"],
         "calories":149
+    },
+    {
+        "recipe":"Sangria",
+        "category":["Alcoholic Drink"],
+        "ingredients":["red wine","apple","orange juice","lemon"],
+        "calories":"200"
     }
 ]
