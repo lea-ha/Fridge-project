@@ -13,7 +13,7 @@
     },
     {
         "recipe":"Pancakes",
-        "category" : ["Breakfast","Sweet"],
+        "category" : ["Breakfast"],
         "ingredients":["flour","milk","water","butter","sugar"],
         "calories":149
     },
