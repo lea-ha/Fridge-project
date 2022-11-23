@@ -13,7 +13,7 @@
     },
     {
         "recipe":"Pancakes",
-        "category" : ["Breakfast","Sweet"],
+        "category" : ["Breakfast"],
         "ingredients":["flour","milk","water","butter","sugar"],
         "calories":149
     },
@@ -131,10 +131,34 @@
         "ingredients":["pasta", "onion","pesto","cheese","oil","salt"],
         "calories":"263"
     },
+    {
+         "recipe":"Fatit hummus",
+        "category":["Lunch"],
+        "ingredients":["hummus", "laban","cinnamom","pepper","oil","salt"],
+        "calories":"165"
+    },
+     {
+         "recipe":"quinoa salad ",
+        "category":["Lunch"],
+        "ingredients":["quinoa", "tomato","cucumber","pepper","lemon","black olives","oil","salt"],
+        "calories":"188"
+    },
+         {
+         "recipe":"escalope chicken",
+        "category":["Lunch"],
+        "ingredients":["Chicken", "bread crumbs","herbs ","eggs ","flour","salt","pepper"],
+        "calories":"165"
+    },
+     {
+         "recipe":"Avocado toast",
+        "category":["Breakfast"],
+        "ingredients":["avocado", "toast","chili flakes","lemon", "pepper","oil","salt"],
+        "calories":"254"
+    },
       {
         "recipe":"omelette",
         "category":["Breakfast"],
         "ingredients":["egg", "butter","tomato","cheese","herbs"],
         "calories":"154"
-    }
+      }
 ]
