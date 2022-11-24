@@ -45,24 +45,24 @@ for(let x=0; x<allCheckboxes.length; x++){
     const checkboxInnerText = allCheckboxes[x].parentElement.innerText;
     if(allCheckboxes[x].checked){
       //console.log(checkboxInnerText);
-      if(!localStorage.getItem(checkboxInnerText)){
-        localStorage.setItem(checkboxInnerText,checkboxInnerText);
+      if(!sessionStorage.getItem(checkboxInnerText)){
+        sessionStorage.setItem(checkboxInnerText,checkboxInnerText);
       }
     }
     else{
-      if(localStorage.getItem(checkboxInnerText)){
-        localStorage.removeItem(checkboxInnerText);
+      if(sessionStorage.getItem(checkboxInnerText)){
+        sessionStorage.removeItem(checkboxInnerText);
       }
     }
   })
 }
 
 let filterOption = 'Calories';
-localStorage.setItem('FilterOpt', filterOption);
+sessionStorage.setItem('FilterOpt', filterOption);
 
 selectFilterOptions.addEventListener('change',e =>{
   filterOption = e.target.value;
-  localStorage.setItem('FilterOpt', filterOption);
+  sessionStorage.setItem('FilterOpt', filterOption);
     //console.log(filterOption);
     //it's in the same 'array' as the ingredients
 

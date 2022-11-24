@@ -1,164 +1,164 @@
 [
     {
         "recipe":"Tabbouleh",
-        "category":["Lunch"],
         "ingredients":["tomato","parsley","onion","salt","oil","bulgur","lemon"],
-        "calories":444
+        "image": "pics/Tabbouleh.jpg",
+        "calories":"444"
     },
     {
         "recipe":"Zaatar Manouche",
-        "category":["Breakfast"],
         "ingredients":["zaatar","dough","oil"],
-        "calories":350
+        "image": "pics/ManoucheZaatar.jpg",
+        "calories":"350"
     },
     {
         "recipe":"Pancakes",
-        "category" : ["Breakfast"],
         "ingredients":["flour","milk","water","butter","sugar"],
-        "calories":149
+        "image":"pics/pancakes.jpg",
+        "calories":"149"
     },
     {
         "recipe":"Sangria",
-        "category":["Alcoholic Drink"],
         "ingredients":["red wine","apple","orange juice","lemon"],
+        "image":"pics/Sangria.jpg",
         "calories":"200"
     },
     {
         "recipe":"mac and cheese",
-        "category":["Lunch"],
         "ingredients":["pasta","cheese","butter","flour"],
+        "image":"pics/macAndCheese.jpg",
         "calories":"250"
     },
     {
         "recipe":"Chicken Shawarma sandwich",
-        "category":["Lunch"],
         "ingredients":["chicken","bread","salt","garlic","oil"],
+        "image":"pics/chickenShawarma.jpg",
         "calories":"517"
     },
     {
         "recipe":"Lasagna",
-        "category":["Lunch"],
         "ingredients":["meat","onion","garlic","tomato","lasagna noodles","cheese"],
+        "image":"pics/Lasagna.jpg",
         "calories":"355"
     },
     {
         "recipe":"Kousa",
-        "category":["Lunch"],
         "ingredients":["zucchini","rice","meat","tomato"],
+        "image":"pics/Kousa.jpg",
         "calories":"470"
     },
     {
         "recipe":"rez aa djej",
-        "category":["Lunch"],
         "ingredients":["rice","meat","chicken"],
+        "image":"pics/rezAaDjej.jpg",
         "calories":"300"
     },
     {
         "recipe":"rez aa lahme",
-        "category":["Lunch"],
         "ingredients":["rice","meat"],
+        "image":"pics/rezzAaLahme.jpg",
         "calories":"270"
     },
     {
         "recipe":"hot chocolate",
-        "category":["Drink"],
         "ingredients":["milk","cocoa powder","sugar","vanilla"],
+        "image":"pics/hotChocolate.jpg",
         "calories":"194"
     },
     {
         "recipe":"marble cake",
-        "category":["Dessert"],
         "ingredients":["eggs","vanilla","sugar","oil","milk","flour","baking powder","cocoa powder"],
+        "image":"pics/marbleCake.jpg",
         "calories":"416"
     },
    {
         "recipe":"crab salad",
-        "category":["Lunch"],
         "ingredients":["pasta","oil","crab","cucumber","soy sauce","mayonaise","lettuce"],
+        "image":"pics/crabSalad.jpg",
         "calories":"381"
     },
     {
         "recipe":"french toast",
-        "category":["Breakfast"],
         "ingredients":["toast","butter","egg","milk"],
+        "image":"pics/frenchToast.jpg",
         "calories":"229"
     },
      {
         "recipe":"loubia b zeit",
-        "category":["Lunch"],
         "ingredients":["green beans","garlic","tomato","olive oil","onion","salt"],
+        "image":"pics/loubiehBZeit.jpg",
         "calories":"425.4"
     }, 
       {
         "recipe":"fattoush",
-        "category":["Lunch"],
         "ingredients":["lettuce","cucumber","tomato","olive oil","lemon","salt","parsley","onion"],
+        "image":"pics/fattoush.jpg",
         "calories":"109"
     }, 
      {
         "recipe":"cinnamon rolls",
-        "category":["Dessert"],
         "ingredients":["butter","egg","milk","flour","sugar","yeast","vanilla","cinnamon"],
+        "image":"pics/cinnamonRolls.jpg",
         "calories":"436"
     }, 
      {
         "recipe":"chicken burger",
-        "category":["Lunch"],
         "ingredients":["lettuce","chicken","tomato","bread","mayonnaise"],
-        "calories":"283"
+        "image":"pics/chickenBurger.jpg",
+        "calories": "812"
     }, 
      {
         "recipe":"chocolate brownies",
-        "category":["Dessert"],
         "ingredients":["egg","cocoa powder","butter","oil","vannilla","flour"],
+        "image":"pics/chocolateBrownies.jpg",
         "calories":"466"
     },
     {
         "recipe":"chicken burrito",
-        "category":["Lunch"],
         "ingredients":["chicken", "beans","corn","cheese","guacamole"],
+        "image":"pics/chickenBurrito.jpg",
         "calories":"886"
     },
      {
         "recipe":"garlic bread",
-        "category":["Lunch"],
         "ingredients":["bread","garlic","cheese","butter"],
+        "image":"pics/garlicBread.jpg",
         "calories":"350"
     },
      {
         "recipe":"pesto pasta",
-        "category":["Lunch"],
         "ingredients":["pasta", "onion","pesto","cheese","oil","salt"],
+        "image":"pics/pestoPasta.jpg",
         "calories":"263"
     },
     {
          "recipe":"Fatit hummus",
-        "category":["Lunch"],
         "ingredients":["hummus", "laban","cinnamom","pepper","oil","salt"],
+        "image":"pics/fatitHummus.jpg",
         "calories":"165"
     },
      {
          "recipe":"quinoa salad",
-        "category":["Lunch"],
         "ingredients":["quinoa", "tomato","cucumber","pepper","lemon","black olives","oil","salt"],
+        "image":"pics/quinoaSalad.jpg",
         "calories":"188"
     },
          {
          "recipe":"escalope chicken",
-        "category":["Lunch"],
         "ingredients":["Chicken", "bread crumbs","herbs ","eggs ","flour","salt","pepper"],
+        "image":"pics/escalopeChicken.jpg",
         "calories":"165"
     },
      {
          "recipe":"Avocado toast",
-        "category":["Breakfast"],
         "ingredients":["avocado", "toast","chili flakes","lemon", "pepper","oil","salt"],
+        "image":"pics/avocadoToast.jpg",
         "calories":"254"
     },
       {
         "recipe":"omelette",
-        "category":["Breakfast"],
         "ingredients":["egg", "butter","tomato","cheese","herbs"],
+        "image":"pics/omelette.jpg",
         "calories":"154"
       }
 ]
