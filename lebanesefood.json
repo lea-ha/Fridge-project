@@ -1,19 +1,19 @@
 [
     {
         "recipe":"Tabbouleh",
-        "ingredients":["tomato","parsley","onion","salt","oil","bulgur","lemon"],
+        "ingredients":["tomato","parsley","onion","salt","olive oil","bulgur","lemon"],
         "image": "pics/Tabbouleh.jpg",
         "calories":"444"
     },
     {
         "recipe":"Zaatar Manouche",
-        "ingredients":["zaatar","dough","oil"],
+        "ingredients":["zaatar","dough","olive oil"],
         "image": "pics/ManoucheZaatar.jpg",
         "calories":"350"
     },
     {
         "recipe":"Pancakes",
-        "ingredients":["flour","milk","water","butter","sugar"],
+        "ingredients":["flour","milk","water","butter","sugar","eggs"],
         "image":"pics/pancakes.jpg",
         "calories":"149"
     },
@@ -24,7 +24,7 @@
         "calories":"200"
     },
     {
-        "recipe":"mac and cheese",
+        "recipe":"Mac and cheese",
         "ingredients":["pasta","cheese","butter","flour"],
         "image":"pics/macAndCheese.jpg",
         "calories":"250"
@@ -73,13 +73,13 @@
     },
    {
         "recipe":"crab salad",
-        "ingredients":["pasta","oil","crab","cucumber","soy sauce","mayonaise","lettuce"],
+        "ingredients":["pasta","oil","crab","cucumber","soy sauce","mayonnaise","lettuce"],
         "image":"pics/crabSalad.jpg",
         "calories":"381"
     },
     {
         "recipe":"french toast",
-        "ingredients":["toast","butter","egg","milk"],
+        "ingredients":["toast","butter","eggs","milk"],
         "image":"pics/frenchToast.jpg",
         "calories":"229"
     },
@@ -97,7 +97,7 @@
     }, 
      {
         "recipe":"cinnamon rolls",
-        "ingredients":["butter","egg","milk","flour","sugar","yeast","vanilla","cinnamon"],
+        "ingredients":["butter","eggs","milk","flour","sugar","yeast","vanilla","cinnamon"],
         "image":"pics/cinnamonRolls.jpg",
         "calories":"436"
     }, 
@@ -109,7 +109,7 @@
     }, 
      {
         "recipe":"chocolate brownies",
-        "ingredients":["egg","cocoa powder","butter","oil","vannilla","flour"],
+        "ingredients":["eggs","cocoa powder","butter","oil","vanilla","flour"],
         "image":"pics/chocolateBrownies.jpg",
         "calories":"466"
     },
@@ -133,7 +133,7 @@
     },
     {
          "recipe":"Fatit hummus",
-        "ingredients":["hummus", "laban","cinnamom","pepper","oil","salt"],
+        "ingredients":["hummus", "laban","cinnamon","pepper","oil","salt"],
         "image":"pics/fatitHummus.jpg",
         "calories":"165"
     },
@@ -145,7 +145,7 @@
     },
          {
          "recipe":"escalope chicken",
-        "ingredients":["Chicken", "bread crumbs","herbs ","eggs ","flour","salt","pepper"],
+        "ingredients":["chicken", "bread crumbs","herbs ","eggs","flour","salt","pepper"],
         "image":"pics/escalopeChicken.jpg",
         "calories":"165"
     },
@@ -157,7 +157,7 @@
     },
       {
         "recipe":"omelette",
-        "ingredients":["egg", "butter","tomato","cheese","herbs"],
+        "ingredients":["eggs", "butter","tomato","cheese","herbs"],
         "image":"pics/omelette.jpg",
         "calories":"154"
       }
