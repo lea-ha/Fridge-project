@@ -1,5 +1,5 @@
 *{
-    font-family: sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -27,7 +27,7 @@ body{
     font-size:40px;
     color: #444;
     margin-bottom:30px;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     text-align:center;
 }
 
@@ -42,7 +42,6 @@ body{
     padding:3rem 2rem;
     background: #fff;
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2); 
-    /* outline: 0.1rem solid #ccc; */
     border-radius: 20px;
     outline: .1rem solid #fff;
     outline-offset: -1rem;
@@ -86,12 +85,13 @@ body{
     display: none;
     align-items: center;
     justify-content: center;
+    text-align: left;
  }
  
  .recipe_preview .preview{
     display: none;
     padding:2rem;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     text-align: center;
     background: #fff;
     position: relative;
@@ -101,8 +101,12 @@ body{
  
  .recipe_preview .preview.active{
     display: inline-block;
+    padding: 2rem;
+    height: 450px;
+    overflow-y: scroll;
  }
  
+
  .recipe_preview .preview img{
     height: 15rem;
  }
@@ -130,12 +134,20 @@ body{
     font-size:2rem;
 }
 
-.recipe_preview .preview p{
-    line-height: 1.5;
+.recipe_preview .preview .instructions_div{
     padding:1rem 0;
     font-size:1rem;
+    font-weight: bolder;
+    margin-bottom: .2em;
 }
 
+.recipe_preview .preview .instructions_div ol li{
+    line-height: 1.2;
+    font-weight: 400;
+    padding-left: 0.5em;
+    text-align: left;
+    margin-bottom: 1em;
+}
 /********************************************************/
 
 

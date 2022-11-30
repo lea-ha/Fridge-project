@@ -9,25 +9,20 @@ for(let i=0; i<sessionStorage.length; i=i+1){
     }
 }
 
-// const p=  document.getElementById('userInputs'); //u dont need this for later
-// p.innerText = user_inputs + '         filter: ' + filter; //nor this, just a demo
-// console.log(user_inputs);
 sessionStorage.clear();
 
 //-------------------------------------Getting json data and using it---------------------------------------------------------//
 
 const resultContainer = document.querySelector('.result_container');
-let preveiwContainer = document.querySelector('.recipe_preview');
+let previewContainer = document.querySelector('.recipe_preview');
 
 
 fetch("lebanesefood.json").then(function(response){
   return response.json();
 }).then(function (object){
   object.forEach(recipes =>{
-      // console.log(recipes.recipe); //write ur code here baaden delete hawde lconsole.log
-      // console.log(recipes.calories);
 
-      //everything related to the result
+      //everything related to the result, creating the DOM
       const recipe = document.createElement('div');
       const h3 = document.createElement('h3');
       recipe.className="recipe";
@@ -39,21 +34,42 @@ fetch("lebanesefood.json").then(function(response){
       recipe.appendChild(img);
       resultContainer.appendChild(recipe);
 
-      //resultsClicked
+      //everything related to resultsClicked, creating the DOM
       const recipeClicked = document.createElement('div');
       recipeClicked.className = 'preview';
+
+      const calories = document.createElement('h4');
+      calories.innerText= `Calories: ${recipes.calories} Cal`;
+
+      const title = document.createElement('h3');
+      title.innerText = `${recipes.recipe}`;
+
       const imgClicked = document.createElement('img');
       imgClicked.src = recipes.image;
+
       const exitButton = document.createElement('button');
       exitButton.className = "xButton";
       exitButton.innerText = "X";
+
       recipeClicked.appendChild(exitButton);
       recipeClicked.setAttribute('data-target', `${recipes.recipe}`);
       recipeClicked.appendChild(imgClicked);
+      recipeClicked.appendChild(title);
+      recipeClicked.appendChild(calories);
+
       const instructionsDiv = document.createElement('div');
-      instructionsDiv.innerText = `${recipes.instructions}`;
+      instructionsDiv.className = "instructions_div";
+      const ol = document.createElement('ol');
+      ol.className = "instructions_list";
+      recipes.instruction.forEach(instr =>{
+        const li=document.createElement('li');
+        li.innerText = instr;
+        ol.appendChild(li);
+      });
+      instructionsDiv.innerText="Instructions:"
+      instructionsDiv.appendChild(ol); 
       recipeClicked.appendChild(instructionsDiv);
-      preveiwContainer.appendChild(recipeClicked);
+      previewContainer.appendChild(recipeClicked);
 
 
       const recipeIngredients = new Set();
@@ -83,14 +99,13 @@ fetch("lebanesefood.json").then(function(response){
       if(hide()){
         recipe.classList.add('hide');
       }  
-      let previewBox = preveiwContainer.querySelectorAll('.preview'); 
+      let previewBox = previewContainer.querySelectorAll('.preview'); 
       document.querySelectorAll('.result_container .recipe').forEach(product =>{
         product.onclick = () =>{
-          preveiwContainer.style.display = 'flex';
+          previewContainer.style.display = 'flex';
           let name = product.getAttribute('data-name');
           previewBox.forEach(preview =>{
             let target = preview.getAttribute('data-target');
-            console.log("akel");
             if(name == target){
               preview.classList.add('active');
             }
@@ -101,7 +116,7 @@ fetch("lebanesefood.json").then(function(response){
       previewBox.forEach(close =>{
         close.querySelector('.xButton').onclick = () =>{
           close.classList.remove('active');
-          preveiwContainer.style.display = 'none';
+          previewContainer.style.display = 'none';
         };
       });
 
