@@ -2,7 +2,7 @@
     {
         "recipe":"Tabbouleh",
         "ingredients":["tomato","parsley","onion","salt","olive oil","bulgur","lemon"],
-        "image": "pics/Tabbouleh.jpg",
+        "image": "pics/tabbouleh.png",
         "instruction":["In a small bowl, whisk together olive oil and lemon juice until well combined. Then add the bulgur to the dressing and let it soak until it is soft and plumped, about 15 minutes.",
         "Meanwhile, prepare the vegetables by washing, drying thoroughly and finely chopping them. When preparing the tomatoes, it helps to use a colander to drain the excess juice, which you can use in another recipe at a later time.", 
         "Place the chopped vegetables in a large bowl. Add the optional mint. Season with salt and pepper. Then pour the bulgur and dressing mixture over. Gently toss to combine.",
@@ -31,14 +31,6 @@
         "calories":"149"
     },
     {
-        "recipe":"Sangria",
-        "ingredients":["red wine","apple","orange juice","lemon"],
-        "image":"pics/Sangria.jpg",
-        "instruction":["Cut the fruits into small cubes and combine then with wine.", 
-        "Optional: add orange juice"],
-        "calories":"200"
-    },
-    {
         "recipe":"Mac and cheese",
         "ingredients":["pasta","cheese","butter","flour"],
         "image":"pics/macAndCheese.jpg",
@@ -60,7 +52,7 @@
     {
         "recipe":"Lasagna",
         "ingredients":["meat","onion","garlic","tomato","lasagna noodles","cheese"],
-        "image":"pics/Lasagna.jpg",
+        "image":"pics/Lazagna.jpg",
         "instruction":["Preheat the oven to 200 degerees C",
         "Boil water with salt",
         "Chop the onions and garlic add small and pepper",
@@ -73,7 +65,7 @@
     {
         "recipe":"Kousa",
         "ingredients":["zucchini","rice","meat","tomato"],
-        "image":"pics/Kousa.jpg",
+        "image":"pics/koussa.jpg",
         "instruction":["Empty the zucchinis from the middle",
         "Mix the meat , rice and tomato with sal and pepper in a bowl",
         "Insert the mixture in the zucchinis and add them in pot filled with water",
@@ -282,5 +274,14 @@
         "Add the filling of tomatoes, cheese, amd herbs when the eggs begin to set. Cook for a few more seconds.",
         "Fold the omelette in half and slide with te help of a silicone spatula."],
         "calories":"154"
+      },
+      {
+            "recipe":"Sangria",
+            "ingredients":["red wine","apple","orange juice","lemon"],
+            "image":"pics/Sangria.jpg",
+            "instruction":["Cut the fruits into small cubes and combine then with wine.", 
+            "Optional: add orange juice"],
+            "calories":"200"
+        
       }
 ]
