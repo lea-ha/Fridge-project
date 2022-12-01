@@ -276,12 +276,66 @@
         "calories":"154"
       },
       {
-            "recipe":"Sangria",
-            "ingredients":["red wine","apple","orange juice","lemon"],
-            "image":"pics/Sangria.jpg",
-            "instruction":["Cut the fruits into small cubes and combine then with wine.", 
-            "Optional: add orange juice"],
-            "calories":"200"
+        "recipe":"Lemon squares",
+        "ingredients":["lemon","sugar","powdered sugar","butter","eggs","flour","baking powder"],
+        "image":"pics/lemonSquares.jpg",
+        "instruction":["Preheat oven to 350°. In a large bowl, combine the flour, confectioners' sugar and salt. Cut in butter until crumbly. Pat into a greased 15x10x1-in. baking pan. Bake 16-20 minutes or until set and top is golden brown.",
+        "For topping, combine the eggs, sugar, lemon juice, baking powder and salt in a bowl. Pour over crust (pan will be full). Bake 16-20 minutes or until set and top is golden brown. Cool. Dust with confectioners' sugar. Cut into squares."],
+        "calories":"145"
+      },
+      {
+        "recipe":"Powdered chocolate cookies",
+        "ingredients":["powdered sugar","cocoa powder","flour","eggs","butter","vanilla","baking powder"],
+        "image":"pics/powderedChocolateCookies.jpg",
+        "instruction":["Preheat the oven to 350.",
+        "Mix sugar, flour, melted butter, eggs, cocoa powder, vanilla, baking powder, and sugar in a large bowl until combined. Spread the batter into the prepared pan.",
+        "round-shape the cookies like balls and sprinkle with powdered sugar","Bake in the preheated oven until top is dry, about 20 to 30 minutes"],
+        "calories":"470"
+      },
+      {
+        "recipe":"Chicken Caesar",
+        "ingredients":["chicken","lettuce","parmesan","croutons","dijon mustard","mayonnaise","pepper","lemon","olive oil"],
+        "image":"pics/chickenCaesar.jpg",
+        "instruction":["Place all dressing ingredients in a bowl and whisk well. Store in the fridge until you finish the remainder of the salad.",
+        "Wash and clean the lettuce well. Place on a rack or kitchen towel to dry while you prepare the chicken.",
+        "Fry the chicken","In a large dish, place the lettuce on the bottom. Then add the chicken and croutons. Pour over some extra dressing if needed and top with shaved parmesan cheese."],
+        "calories":"295"
+      },
+      {
+        "recipe":"Nacho cheese",
+        "ingredients":["cheese","cheddar","nachos"],
+        "image":"pics/nachoCheese.jpg",
+        "instruction":["melt the cheddar or any sorts of cheese by placing cheese in a bowl inside a casserole filled with hot water","place the nachos and top with melted cheddar"],
+        "calories":"250"
+      },
+      {
+        "recipe":"Asian Shrimps",
+        "ingredients":["cornstarch","shrimps","pineapple","green beans","soy sauce","bell pepper","rice","sesame","olive oil","onion","hoisin sauce","garlic"],
+        "image":"pics/asianShrimps.jpg",
+        "instruction":["Whisk pineapple juice, hoisin sauce, soy sauce, and cornstarch together in a small bowl until well combined; set aside.",
+        "Drizzle vegetable and sesame oils around the top of a wok or large skillet to coat the sides. Heat over medium-high heat for 1 minute. Pat shrimp dry with a paper towel and add to wok. Stir-fry for 1 minute on each side and transfer cooked shrimp to a clean plate.",
+        "Add pineapple, bell pepper, onion, and stir-fry for 2 to 3 minutes. Stir in garlic and bell pepper flakes, and cook until fragrant, about 30 seconds.",
+        "Return shrimp to the wok, and stir-fry an additional 2 minutes. Whisk stir-fry sauce a couple of times and pour over shrimp and vegetables, stirring constantly until thickened, about 1 minute."],
+        "calories":"306"
+      },
+      {
+        "recipe":"Apple pie",
+        "ingredients":["flour","butter","eggs","sugar","salt","apple","lemon","cinnamon"],
+        "image":"pics/applePie.jpg",
+        "instruction":[" Peel the apples, discard the cores, and cut into slices about 1 inch thick. Place apple slices in a bowl and add cinnamon, sugar, and lemon juice. Toss to combine.",
+        "Combine the flour, salt, and sugar in a large bowl. Add the butter, and work it between your fingers until there are no large pieces left","Turn the dough out onto a clean work surface, and add the ice water and vinegar. Comb through the dough with your fingers until well-combined, then begin to knead the dough. Only do this a few minutes; dough will not look smooth or stretchy. Divide, and form into two shaggy discs, about 1-inch thick. Wrap pie dough in plastic wrap, and refrigerate for at least two hours.",
+        "Preheat oven to 375°F. Remove one disc of dough from refrigerator and roll out to fit a 9-inch pie plate or pie pan. Fit the dough into the bottom of the dish, and blind-bake until beginning to brown. Allow to cool.",
+        "Roll out the second disc of dough. When the blind-baked crust has cooled, add the filling, and top with second crust. Crimp edges together with your fingers or the tines of a fork, and seal with egg wash. Cut slits in the top crust to allow steam from the filling to escape, and brush lightly with egg wash. Top with a sprinkle of Demerara sugar if desired.",
+        "Bake pie 40 minutes, or until crust is a deep, burnished golden brown, rotating once halfway through.","Remove from oven, and let cool at least 30 minutes before cutting. Serve with whipped cream or ice cream, or for an extra decadent treat, serve with both!"],
+        "calories":"411"
+      },
+      {
+        "recipe":"Sangria",
+        "ingredients":["red wine","apple","orange juice","lemon"],
+        "image":"pics/Sangria.jpg",
+        "instruction":["Cut the fruits into small cubes and combine then with wine.", 
+        "add orange juice"],
+        "calories":"200"
         
       }
 ]
