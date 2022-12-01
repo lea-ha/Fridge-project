@@ -15,6 +15,7 @@ sessionStorage.clear();
 
 const resultContainer = document.querySelector('.result_container');
 let previewContainer = document.querySelector('.recipe_preview');
+const searchInp = document.querySelector('#search_recipe');
 
 
 fetch("lebanesefood.json").then(function(response){
@@ -124,6 +125,18 @@ fetch("lebanesefood.json").then(function(response){
           previewContainer.style.display = 'none';
         };
       });
+
+      searchInp.addEventListener("input", e => {
+
+          const str = recipes.recipe;
+          console.log(str);
+          const value = e.target.value.toLowerCase();
+          //console.log(value);
+          const isVisible = str.toLowerCase().includes(value);
+          //console.log(isVisible);
+          recipe.classList.toggle("hide2", !isVisible);
+        
+    })
 
 
   });
