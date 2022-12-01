@@ -41,7 +41,7 @@
     },
     {
         "recipe":"Chicken Shawarma sandwich",
-        "ingredients":["chicken","bread","salt","garlic","oil"],
+        "ingredients":["chicken","bread","salt","garlic","oil","pickles"],
         "image":"pics/chickenShawarma.jpg",
         "instruction":["Mix the chicken with the shawarma spices", 
         "Heat up the pan with oil",
@@ -167,12 +167,12 @@
         "calories":"436"
     }, 
      {
-        "recipe":"chicken burger",
-        "ingredients":["lettuce","chicken","tomato","bread","mayonnaise"],
+        "recipe":"crispy chicken burger",
+        "ingredients":["lettuce","chicken","tomato","bread","mayonnaise","pickles"],
         "image":"pics/chickenBurger.jpg",
-        "instruction":["Wash the breasts thoroughly. If they are very thick then, slice them evenly, and yrim to a round shape.",
+        "instruction":["Wash the breasts thoroughly. If they are very thick then, slice them evenly, and trim to a round shape.",
         "Heat oil in a pan on a medium high flame. When the oil is hot enough, deep fry them on both sides fliping as needed.",
-        "Transfer them to aa kitchen tissue",
+        "Transfer them to a kitchen tissue",
         "Slice the burger buns, toast them. Place the patty over the bun.",
         "Slice the tomatoes lettuce and onions and place them on the chicken.",
         "Add the mayonnaise and the ketchup unto the buns and top it off with the other buns."],

@@ -39,7 +39,7 @@ fetch("lebanesefood.json").then(function(response){
       recipeClicked.className = 'preview';
 
       const calories = document.createElement('h4');
-      calories.innerText= `Calories: ${recipes.calories} Cal`;
+      calories.innerHTML= `<b>Calories: </b>${recipes.calories} Cal`;
 
       const title = document.createElement('h3');
       title.innerText = `${recipes.recipe}`;
@@ -49,13 +49,18 @@ fetch("lebanesefood.json").then(function(response){
 
       const exitButton = document.createElement('button');
       exitButton.className = "xButton";
-      exitButton.innerText = "X";
+      exitButton.innerHTML = "&times";
+
+      const ingredientsList = document.createElement('p');
+      ingredientsList.className = "ingr_list";
+      ingredientsList.innerHTML = `<b>Ingredients :</b> ${recipes.ingredients}`;
 
       recipeClicked.appendChild(exitButton);
       recipeClicked.setAttribute('data-target', `${recipes.recipe}`);
       recipeClicked.appendChild(imgClicked);
       recipeClicked.appendChild(title);
       recipeClicked.appendChild(calories);
+      recipeClicked.appendChild(ingredientsList);
 
       const instructionsDiv = document.createElement('div');
       instructionsDiv.className = "instructions_div";
