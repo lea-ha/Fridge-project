@@ -180,10 +180,10 @@
     }, 
      {
         "recipe":"chocolate brownies",
-        "ingredients":["eggs","cocoa powder","butter","oil","vanilla","flour"],
+        "ingredients":["eggs","cocoa powder","butter","oil","vanilla","flour","sugar"],
         "image":"pics/chocolateBrownies.jpg",
         "instruction":["Preheat the oven to 350.",
-        "Mix sugar, flour, melted butter, eggs, cocoa powder, vanilla, baking powder, and salt in a large bowl until combined. Spread the batter into the prepared pan.",
+        "Mix sugar, flour, melted butter, eggs, cocoa powder, vanilla, baking powder, and sugar in a large bowl until combined. Spread the batter into the prepared pan.",
         "Bake in the preheated oven until top is dry and edges have started to pull away from te sides of the pan, about 20 to 30 minutes; cool before slicing into squares."],
         "calories":"466"
     },

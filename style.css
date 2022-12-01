@@ -1,6 +1,6 @@
 *{
   transition: all 0.2s linear;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 body{
@@ -57,38 +57,34 @@ input:focus{
   }
 
 .Div_results {
-    padding: 0px;
+  margin-top: 5px;
+  padding: 10px;
+  height: 160px;
+  width: auto;
+  overflow: hidden;
+  overflow-y: scroll;
 }
   
 .Div_results ul {margin: 0; padding: 0; }
 .Div_results ul .listItem {
     list-style: none;
+    text-transform: capitalize;
     border-radius: 3px;
-    opacity: 0;
-    /* display: none; */
-    padding: 8px 12px;
-    transition: all .5s linear;
-}
-  
-.show .Div_results ul .listItem {
     opacity: 1;
     /* display: block; */
     cursor:pointer;
+    padding: 8px 12px;
+    transition: all .5s linear;
 }
-  
-  .show .Div_results {
-    margin-top: 5px;
-    padding: 10px;
-    height: 160px;
-    width: auto;
-    overflow: hidden;
-    overflow-y: scroll;
-  }
   
   .Div_results ul .listItem:hover {
     background: #ececec;
   }
   
+  .listItem .liCheckbox :hover {
+    cursor: pointer;
+  }
+
   #select_options{
     border: 0px;
     border-radius: 5px;
