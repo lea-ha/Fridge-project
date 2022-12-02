@@ -305,7 +305,7 @@
       {
         "recipe":"Nacho cheese",
         "ingredients":["cheese","cheddar","nachos"],
-        "image":"pics/nachoCheese.jpg",
+        "image":"pics/nachoCheese.jpeg",
         "instruction":["melt the cheddar or any sorts of cheese by placing cheese in a bowl inside a casserole filled with hot water","place the nachos and top with melted cheddar"],
         "calories":"250"
       },
@@ -363,5 +363,135 @@
         "mix the crab with mayonnaise, lemon and oil","cut the fruits",
         "combine the crab with the fruits and vegetables"],
         "calories":"400"
-      }
+      },
+      {
+        "recipe": "pasta salad",
+        "ingredients":["pasta","italian-style salad dressing","salad seasoning","tomatoes","red bell pepper","green bell pepper","yellow bell pepper","black olives"],
+        "image":"pics/pastaSalad.jpg",
+        "instruction":["Bring a large pot of lightly salted water to a boil. Cook pasta in the boiling water, stirring occasionally, until tender yet firm to the bite, about 10 to 12 minutes; rinse under cold water and drain.",
+        "Whisk Italian dressing and salad spice mix together until smooth.",
+        "Combine pasta, tomatoes, bell peppers, and olives in a salad bowl; pour dressing over salad and toss to coat. Refrigerate salad, 8 hours to overnight."],
+        "calories":"400"
+  },
+  {
+        "recipe":"Meat Shawarma",
+        "ingredients":["meat","oil","vinegar","shawarma spice","salt","pepper","tahini","lemon","ginger"],
+        "image":"pics/beefShawarma.jpg",
+        "instruction": ["Begin by slicing your beef into 3-inch thin slices. To make the marinade, combine the vegetable oil with the distilled white vinegar. Add the Shawarma spice, salt and black pepper. Mix them thoroughly with the meat and cover with plastic wrap and return to the fridge.",
+        "After about 6-8 hours of marinating, the beef is ready to be cooked. Sautée the beef in a skillet on medium-high heat for 10-15 minutes, until most of the juices have evaporated. Taste for seasoning.",
+        "Slice all your vegetables for your sandwich or platter (Tomatoes, small Lebanese pickles, pickled turnips)",
+        "While the beef is cooking, prepare your Tahini sauce. Crush 1 large or 2 small cloves of garlic with a ½ tsp of salt. Add the Tahini, freshly squeezed lemon juice and water. Whisk until fully combined. Tahini paste has a very strange texture when you first begin to whisk it. You will notice it starts to get thicker and clumpy but, just keep whisking, and it will get silky and smooth.",
+        "To make your sandwich, open up a pita and arrange the beef and all your fixings. Drizzle the Tahini sauce on top."],
+        "calories":"284"
+  },
+  {
+        "recipe":"chicken curry",
+        "ingredients":["curry powder","garlic","ginger","coriander","cocnut milk","chicken broth","peas","chicken","onion","salt","pepper"],
+        "image":"pics/chickenCurry.jpg",
+        "instruction":["Heat oil in a skillet over medium high heat. Cook garlic, ginger and onion for 3 minutes until onion is translucent.",
+        "Add chicken and cook until it it changes from pink to white.",
+        "Add curry powder and cook for 2 minutes.",
+        "Add coconut milk and chicken stock. Stir, lower heat to medium and cook, simmering rapidly, for 10 minutes until sauce reduces and thickens.",
+        "Add peas and salt. Cook for a further 2 minutes, then taste to see if it needs more salt. Garnish with coriander.",
+        "Serve over rice, noodles or mashed potato!"],
+        "calories":"383"
+  },
+  {
+        "recipe":"dynamite shrimps",
+        "ingredients":["shrimps","red chili powder","paprika powder","salt","soy sauce","egg","flour","cornstarch","garlic powder","salt","mayonnaise","siracha sauce","honey","tomato ketchup"],
+        "image":"pics/dynamiteShrimps.jpg",
+        "instruction":["Prepare the sauce by stirring mayonnaise, sriracha sauce, honey and tomato ketchup together and keep aside.",
+        "To the shrimp, add red chili powder, salt, paprika powder, soy sauce and egg. Mix well.",
+        "Prepare the dredging mix by combining all-purpose flour, cornflour/cornstarch, salt and garlic powder.",
+        "Heat oil for deep-frying.",
+        "Using a tong, coat each shrimp with the flour, shake off excess and drop in the hot oil.",
+        "Fry on medium high heat till it turns golden and crispy (around 3-4 minutes).",
+        "Remove into a sieve to drain off excess oil. Let cool slightly.",
+        "Add the fried shrimp to a bowl. Pour the sauce and toss until the shrimps are nicely coated.",
+        "In a small bowl or glass put some lettuce on the bottom, add the shrimps and garnish with chopped green part of spring onion (or chives), black and white sesame seeds."],
+        "calories":"527"
+  },
+  {
+        "recipe":"pepperoni pizza",
+        "ingredients":["pizza dough","pizza sauce","pepperoni","cheese","black pepper","oregona","flour"],
+        "image":"pics/pepperoniPizza.jpg",
+        "instruction":["Preheat oven to 500°F. If you are using a pizza stone, preheat it in the oven for at least 20 minutes so it is nice and hot as well.",
+        "If you are using my sauce recipe, stir together the ingredients. The sauce recipe makes just enough for one large pizza. You can easily double it if you are making more than one pizza.",
+        "Roll out dough on a lightly floured surface. If it's hard to roll, let it rest for 5 minutes so it can come to room temperature. For a large pizza, I like to roll my dough into about a 14-inch diameter circle.",
+        "Transfer the dough to a lightly dusted pizza peel. Alternatively, fit it into a large cast-iron.",
+        "Add sauce in a light layer all over the pizza, leaving about 1/4-inch crust around the edges. Chop half of the pepperoni and sprinkle it over the sauce. Top the pizza with grated cheese and the rest of the pepperoni. Season with black pepper.",
+        "If you're using a pizza stone, carefully slide pizza into the center of the preheated pizza stone. Cook for 6 minutes, then rotate the pizza halfway so it cooks evenly. Cook for another 6-8 minutes, or until the crust is golden brown and charred in spots.",
+        "If you're using a skillet, press the dough into a cast iron skillet and add toppings. Place the skillet over a high heat burner for 2 minutes to get it preheated and get the crust cooking right away. Then transfer to a 500 ̊F oven and bake for 10 to 12 minutes, or until the crust is golden brown.",
+        "Use pizza peel to slide pizza out onto a cutting board. Let the pizza rest for a minute and slice into pieces. Season with fresh oregano (optional). Serve while warm with a side salad."],
+        "calories":"313"
+  },
+  {
+        "recipe":"whiskey sour",
+        "ingredients":["bourbon whiskey","lemon","maple syrup","orange"],
+        "image":"pics/whiskeySour.jpg",
+        "instruction":["Add the bourbon whiskey, lemon juice, and syrup to a cocktail shaker. Fill with a handful of ice and shake until very cold.",
+        "Strain the drink into a lowball or Old Fashioned glass. Serve with ice, an orange peel and a cocktail cherry. "],
+        "calories":"150"
+  },
+  {
+        "recipe":"classic margarita",
+        "ingredients":["tequila","cointreau","fresh lime juice","sea salt"],
+        "image":"pics/classicMargarita.jpg",
+        "instruction":["Cut a notch in a lime wedge, then run the lime around the rim of a glass. Dip the edge of the rim into a plate of salt (or for a festive look, use our Margarita Salt).",
+        "Place all ingredients in a cocktail shaker with 4 ice cubes and shake until cold.",
+        "Strain the margarita into the glass with the salted rim. Fill the glass with ice and serve.",
+        "Pitcher (8 servings): Place 1 ½ cups tequila, 1 cup Cointreau or Triple Sec, and ¾ cup lime juice in a pitcher. Add 3 handfuls ice and stir until cold."],
+        "calories":"166"
+  },
+  {
+        "recipe":"tom collins cocktail",
+        "ingredients":["dry gin","maple syrup","lemon","soda water","ice"],
+        "image":"pics/tomCollins.jpg",
+        "instruction":["Add the gin, syrup and lemon juice to a cocktail shaker with 4 ice cubes. Shake well until chilled.",
+        "Strain the liquid into an ice filled glass, and top off the glass with soda water. Garnish with a lemon wheel and cocktail cherry."],
+        "calories":"239"
+  },
+  {
+        "recipe":"classic mojito",
+        "ingredients":["mint leaves","lime juice","syrup","white rum","soda water"],
+        "image":"pics/classicMojito.jpg",
+        "instruction":["In a cocktail shaker, muddle the mint leaves. (Here’s how to muddle mint.)",
+        "Add the lime juice, simple syrup, and rum. Fill the cocktail shaker with ice and shake until cold.",
+        "Place ice into a glass, and strain in the liquid. Top off the glass with soda water. Garnish with additional mint leaves."],
+        "calories":"188"
+  },
+  {
+        "recipe":"gin fizz cocktail",
+        "ingredients":["gin","lemon","syrup","eggs","lemon"],
+        "image":"pics/ginFizz.jpg",
+        "instruction":["Place the gin, lemon juice, syrup and egg white in a cocktail shaker. Shake vigorously for 15 seconds.",
+        "Fill the shaker with ice and shake for 30 seconds until cold.",
+        "Strain the drink into a glass and top with the soda water; the egg white foam forms on top. If desired, garnish with a lemon twist. Serve immediately."],
+        "calories":"82"
+  },
+  {
+        "recipe":"moscow mule",
+        "ingredients":["vodka","lime juice","ginger beer","lime wheel"],
+        "image":"pics/moscowMule.jpg",
+        "instruction":["Pour the vodka, lime juice, and ginger beer into a copper mug.",
+        "Add ice and garnish with a lime slice. Serve immediately."],
+        "calories":"139"
+  },
+  {
+        "recipe":"gin and tonic",
+        "ingredients":["gin","tonic water","lime"],
+        "image":"pics/ginTonic.jpg",
+        "instruction":["Add lots of ice to a large cocktail or wine glass and stir to chill the glass. Drain any melted water.",
+        "Pour in the gin. Add the garnishes. Pour the tonic water onto a bar spoon into the glass (to increase the bubbles). Stir once and serve."],
+        "calories":"170"
+  },
+  {
+        "recipe":"new york sour",
+        "ingredients":["bourbon whiskey","lemon juice","maple syrup","dry red wine","lemon"],
+        "image":"pics/newYorkSour.jpg",
+        "instruction":["Add the bourbon whiskey, lemon juice, and syrup to a cocktail shaker and fill it with a handful of ice. Shake until very cold.",
+        "Strain the drink into an ice-filled lowball or Old Fashioned glass.",
+        "Carefully pour the red wine over the back of a spoon just above the surface of the drink, creating a layer on top. Serve with a lemon twist if desired."],
+        "calories":"222"
+  }
 ]
