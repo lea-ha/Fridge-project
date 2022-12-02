@@ -386,7 +386,7 @@
   },
   {
         "recipe":"chicken curry",
-        "ingredients":["curry powder","garlic","ginger","coriander","cocnut milk","chicken broth","peas","chicken","onion","salt","pepper"],
+        "ingredients":["curry powder","garlic","ginger","coriander","coconut milk","chicken broth","peas","chicken","onion","salt","pepper"],
         "image":"pics/chickenCurry.jpg",
         "instruction":["Heat oil in a skillet over medium high heat. Cook garlic, ginger and onion for 3 minutes until onion is translucent.",
         "Add chicken and cook until it it changes from pink to white.",
@@ -495,6 +495,31 @@
         "calories":"222"
   },
   {
+    "recipe":"Shrimp tempura",
+    "ingredients":["shrimps","avocado","rice","oil","vinegar","salt","cucumber","sesame","soy sauce","nori","eggs","flour"],
+    "image":"pics/shrimpTempura.jpg",
+    "instruction":["emove the vein from the shrimp, and use a knife to cut some slits in the underside of the shrimp to prevent them from curling up while cooking.",
+    "combine an egg yolk with 1 cup cold water.","add 1 cup flour to the egg mixture.","Coat the shrimp in flour.",
+    "dip the shrimp in the tempura batter.","Heat up oil to 177 °C. Use a pan or a deep-fryer to heat up any type of cooking oil, such as sesame oil or canola oil. Make sure you have enough oil to submerge the shrimp.",
+    "fry the shrimp.","cook the rice in water. After it's fully cooked, set it aside to cool. While the rice is cooling, heat up the rice vinegar, salt, and sugar in a pot and mix them together.","Prepare any other fillings you'll be using.",
+    "Cover your sushi mat with plastic wrap and set the nori on top of it.","Coat the nori with rice. Make sure the rice is layered thinly and relatively evenly, and leave a small strip of nori uncovered (about 13 to 25 mm so that the roll will close successfully.",
+    "Flip the rice-covered nori","place the tempura and other fillings on the nori","Roll your sushi. Grab the sushi mat from both ends and wrap the end with rice over the inch that doesn’t have any rice on it. Apply pressure to seal the roll"],
+    "calories":"419"
+  },
+  {
+    "recipe":"grilled pineapple sweet chili shrimps",
+    "ingredients":[],
+    "image":"pics/pineappleShrimps.jpg",
+    "instruction":[],
+    "calories":""
+  },
+  
+
+
+
+
+
+  {
     "recipe":"pasta carbonara",
     "ingredients":["pasta","bacon"],
     "image":"",
@@ -517,7 +542,7 @@
   },
   {
     "recipe":"Bulgur and tomato",
-    "ingredients":[],
+    "ingredients":["bulgur","tomato"],
     "image":"",
     "instruction":[],
     "calories":""
@@ -531,7 +556,7 @@
   },
   {
     "recipe":"eggs and potatoes",
-    "ingredients":[],
+    "ingredients":["eggs","potato"],
     "image":"",
     "instruction":[],
     "calories":""
@@ -552,7 +577,7 @@
   },
   {
     "recipe": "Kafta and potatoes",
-    "ingredients":["kafta","potatoes","tomato"],
+    "ingredients":["kafta","potato","tomato"],
     "image":"",
     "instruction":[],
     "calories":""
@@ -567,6 +592,76 @@
   {
     "recipe":"bacon and eggs",
     "ingredients":["bacon","eggs"],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"peas and rice",
+    "ingredients":["peas","rice","tomato"],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"russian salad",
+    "ingredients":["peas"],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"Tajin",
+    "ingredients":["fish","tahini"],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"breaded fish",
+    "ingredients":["fish","bread crumbs"],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"meat loaf",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"onion soup",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"chicken soup",
+    "ingredients":["chicken","potato"],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"veggie soup",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"stuffed turkey",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"grilled potatoes",
+    "ingredients":[],
     "image":"",
     "instruction":[],
     "calories":""
