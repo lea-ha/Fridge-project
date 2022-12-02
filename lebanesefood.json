@@ -366,7 +366,7 @@
       },
       {
         "recipe": "pasta salad",
-        "ingredients":["pasta","italian-style salad dressing","salad seasoning","tomatoes","red bell pepper","green bell pepper","yellow bell pepper","black olives"],
+        "ingredients":["pasta","italian-style salad dressing","salad seasoning","tomato","bell pepper","black olives"],
         "image":"pics/pastaSalad.jpg",
         "instruction":["Bring a large pot of lightly salted water to a boil. Cook pasta in the boiling water, stirring occasionally, until tender yet firm to the bite, about 10 to 12 minutes; rinse under cold water and drain.",
         "Whisk Italian dressing and salad spice mix together until smooth.",
@@ -398,7 +398,7 @@
   },
   {
         "recipe":"dynamite shrimps",
-        "ingredients":["shrimps","red chili powder","paprika powder","salt","soy sauce","egg","flour","cornstarch","garlic powder","salt","mayonnaise","siracha sauce","honey","tomato ketchup"],
+        "ingredients":["shrimps","red chili powder","paprika powder","salt","soy sauce","eggs","flour","cornstarch","garlic powder","salt","mayonnaise","siracha sauce","honey","tomato ketchup"],
         "image":"pics/dynamiteShrimps.jpg",
         "instruction":["Prepare the sauce by stirring mayonnaise, sriracha sauce, honey and tomato ketchup together and keep aside.",
         "To the shrimp, add red chili powder, salt, paprika powder, soy sauce and egg. Mix well.",
@@ -414,7 +414,7 @@
   {
         "recipe":"pepperoni pizza",
         "ingredients":["pizza dough","pizza sauce","pepperoni","cheese","black pepper","oregona","flour"],
-        "image":"pics/pepperoniPizza.jpg",
+        "image":"pics/pepperoni.png",
         "instruction":["Preheat oven to 500°F. If you are using a pizza stone, preheat it in the oven for at least 20 minutes so it is nice and hot as well.",
         "If you are using my sauce recipe, stir together the ingredients. The sauce recipe makes just enough for one large pizza. You can easily double it if you are making more than one pizza.",
         "Roll out dough on a lightly floured surface. If it's hard to roll, let it rest for 5 minutes so it can come to room temperature. For a large pizza, I like to roll my dough into about a 14-inch diameter circle.",
@@ -462,7 +462,7 @@
   },
   {
         "recipe":"gin fizz cocktail",
-        "ingredients":["gin","lemon","syrup","eggs","lemon"],
+        "ingredients":["gin","lemon","syrup","eggs"],
         "image":"pics/ginFizz.jpg",
         "instruction":["Place the gin, lemon juice, syrup and egg white in a cocktail shaker. Shake vigorously for 15 seconds.",
         "Fill the shaker with ice and shake for 30 seconds until cold.",
@@ -487,11 +487,88 @@
   },
   {
         "recipe":"new york sour",
-        "ingredients":["bourbon whiskey","lemon juice","maple syrup","dry red wine","lemon"],
+        "ingredients":["bourbon whiskey","lemon juice","maple syrup","red wine","lemon"],
         "image":"pics/newYorkSour.jpg",
         "instruction":["Add the bourbon whiskey, lemon juice, and syrup to a cocktail shaker and fill it with a handful of ice. Shake until very cold.",
         "Strain the drink into an ice-filled lowball or Old Fashioned glass.",
         "Carefully pour the red wine over the back of a spoon just above the surface of the drink, creating a layer on top. Serve with a lemon twist if desired."],
         "calories":"222"
+  },
+  {
+    "recipe":"pasta carbonara",
+    "ingredients":["pasta","bacon"],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"Kibbe eras",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"Lebanese Kabab",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"Bulgur and tomato",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"eggplant and meat",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"eggs and potatoes",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"shish barak",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"Lebanese Kafta",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe": "Kafta and potatoes",
+    "ingredients":["kafta","potatoes","tomato"],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"waffles",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"bacon and eggs",
+    "ingredients":["bacon","eggs"],
+    "image":"",
+    "instruction":[],
+    "calories":""
   }
 ]

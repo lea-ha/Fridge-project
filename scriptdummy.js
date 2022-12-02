@@ -1,4 +1,7 @@
-//---------------------------------------Getting the user's input------------------------------------------//
+
+//This is dummy code do not refer to it
+
+
 let user_inputs=[]; //it contains the user's ingredients
 let filter=sessionStorage.getItem('FilterOpt');
 let idx = 0;
@@ -10,6 +13,8 @@ for(let i=0; i<sessionStorage.length; i=i+1){
 }
 
 sessionStorage.clear();
+
+
 
 //-------------------------------------Getting json data and using it---------------------------------------------------------//
 
@@ -24,7 +29,48 @@ fetch("lebanesefood.json").then(function(response){
 }).then(function (object){
   object.forEach(recipes =>{
 
-      //everything related to the result, creating the DOM
+
+      let recipeIngredients = new Set();
+      for(let i=0; i<recipes.ingredients.length; i=i+1){
+        recipeIngredients.add(recipes.ingredients[i]);
+      }
+      
+      function count(){
+        let count = 0;
+        for(let i=0; i<user_inputs.length; i=i+1){
+         
+          if(recipeIngredients.has(user_inputs[i])){
+
+             count = count + 1;
+          }
+        }
+        return count;
+      }
+
+      recipeIngredientsMatching.set(recipes,count());
+      
+      console.log(recipeIngredientsMatching);
+
+
+  });
+
+      searchInp.addEventListener("input", e => {
+
+          const str = recipes.recipe;
+          console.log(str);
+          const value = e.target.value.toLowerCase();
+          //console.log(value);
+          const isVisible = str.toLowerCase().includes(value);
+          //console.log(isVisible);
+          recipe.classList.toggle("hide2", !isVisible);
+        
+    })
+
+    let sortedMap = new Map([...recipeIngredientsMatching.entries()].sort((a, b) => b[1] - a[1]));
+    console.log(sortedMap);
+    for(let recipes of sortedMap.keys()){
+        console.log(recipes);
+         //everything related to the result, creating the DOM
       const recipe = document.createElement('div');
       const h3 = document.createElement('h3');
       recipe.className="recipe";
@@ -79,85 +125,35 @@ fetch("lebanesefood.json").then(function(response){
       previewContainer.appendChild(recipeClicked);
 
 
-      const recipeIngredients = new Set();
-      for(let i=0; i<recipes.ingredients.length; i=i+1){
-        recipeIngredients.add(recipes.ingredients[i]);
-      }
-      // console.log("ingredients of each recipe = ", recipeIngredients);
-      // console.log("User input = ", user_inputs);
-      function hide(){
-        let count = 0;
-        for(let i=0; i<user_inputs.length; i=i+1){
-          // console.log("user input = ", user_inputs[i]);
-          // console.log(recipeIngredients.has(user_inputs[i]));
-          if(recipeIngredients.has(user_inputs[i])){
 
-             count = count + 1;
+    let previewBox = previewContainer.querySelectorAll('.preview'); 
+    document.querySelectorAll('.result_container .recipe').forEach(product =>{
+      product.onclick = () =>{
+        previewContainer.style.display = 'flex';
+        let name = product.getAttribute('data-name');
+        previewBox.forEach(preview =>{
+          let target = preview.getAttribute('data-target');
+          if(name == target){
+            preview.classList.add('active');
           }
-          //console.log(count);
-        }
-        //console.log(count);
-        if(count === 0){
-          return true;
-        }
-        return false;
-      }
+        });
+      };
+    });
+    
+    previewBox.forEach(close =>{
+      close.querySelector('.xButton').onclick = () =>{
+        close.classList.remove('active');
+        previewContainer.style.display = 'none';
+      };
+    });
 
-      function count(){
-        let count = 0;
-        for(let i=0; i<user_inputs.length; i=i+1){
-         
-          if(recipeIngredients.has(user_inputs[i])){
-
-             count = count + 1;
-          }
-        }
-        return count;
-      }
-
-      if(hide()){
-        recipe.classList.add('hide');
-      }  
-
-      recipeIngredientsMatching.set(recipes,count());
-      //console.log(recipeIngredientsMatching);
-
-      let previewBox = previewContainer.querySelectorAll('.preview'); 
-      document.querySelectorAll('.result_container .recipe').forEach(product =>{
-        product.onclick = () =>{
-          previewContainer.style.display = 'flex';
-          let name = product.getAttribute('data-name');
-          previewBox.forEach(preview =>{
-            let target = preview.getAttribute('data-target');
-            if(name == target){
-              preview.classList.add('active');
-            }
-          });
-        };
-      });
-      
-      previewBox.forEach(close =>{
-        close.querySelector('.xButton').onclick = () =>{
-          close.classList.remove('active');
-          previewContainer.style.display = 'none';
-        };
-      });
-
-      searchInp.addEventListener("input", e => {
-
-          const str = recipes.recipe;
-          console.log(str);
-          const value = e.target.value.toLowerCase();
-          //console.log(value);
-          const isVisible = str.toLowerCase().includes(value);
-          //console.log(isVisible);
-          recipe.classList.toggle("hide2", !isVisible);
-        
-    })
-
-
+    }
   });
-})
+  
+  
+
+
+
 
 //------------------------------------JS for the div prevs (appear/hide)-----------------------------------------//
 
