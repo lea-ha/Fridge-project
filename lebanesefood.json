@@ -111,13 +111,14 @@
         "calories":"416"
     },
    {
-        "recipe":"crab salad",
-        "ingredients":["pasta","oil","crab","cucumber","soy sauce","mayonnaise","lettuce"],
+        "recipe":"crab and caviar salad",
+        "ingredients":["pasta","oil","crab","cucumber","soy sauce","mayonnaise","lettuce","caviar"],
         "image":"pics/crabSalad.jpg",
         "instruction":["Boil water with salt and oil",
         "Cut the cucumbers and lettuce",
         "mix the crab with mayonaise and soy sauce",
-        "add the pasta in the boiled water then drain the water and combine the pasta with the crab and vegetables"],
+        "add the pasta in the boiled water then drain the water and combine the pasta with the crab and vegetables",
+        "top with caviar"],
         "calories":"381"
     },
     {
@@ -153,7 +154,7 @@
      {
         "recipe":"cinnamon rolls",
         "ingredients":["butter","eggs","milk","flour","sugar","yeast","vanilla","cinnamon"],
-        "image":"pics/cinnamonRolls.jpg",
+        "image":"pics/cinnamonRolls.jpeg",
         "instruction":["Preheat the oven to 200 degerees C",
         "Brush a 9 inch square baking dish with 2 tablespoons of melted butter",
         "Whisk flour, 2 tablespoons white sugar, baking powder, and salt together in a large bowl. Work 3 tablespoons softened butter into flour mixture using your hands.",
@@ -336,6 +337,31 @@
         "instruction":["Cut the fruits into small cubes and combine then with wine.", 
         "add orange juice"],
         "calories":"200"
-        
+      },
+      {
+        "recipe":"mashed potatoes",
+        "ingredients":["potato","olive oil","salt","pepper","eggs","milk"],
+        "image":"pics/mashedPotatoes.jpg",
+        "instruction":["boil the potatoes for 1 hour","peel the potatoes","with a fork, smash the potatoes until they look fluffy","add olive oil, salt and pepper for tastiness","add milk for a more creamy dish, you can also add eggs aside"],
+        "calories":"237"
+      },
+      {
+        "recipe":"Caramel Cream",
+        "ingredients":["sugar","milk","eggs","vanilla"],
+        "image":"pics/caramelCream.jpg",
+        "instruction":["Preheat oven to 325 degrees. Place eight 4-ounce ramekins in a large roasting pan. Add 4 tablespoons water to a small pot. Add 1 cup sugar and stir to dissolve. Cook over medium-high, swirling occasionally, until caramel begins to turn amber, 6 to 8 minutes. Working quickly, divide caramel between ramekins, swirling ramekins to coat bottoms evenly, set aside.",
+        "In a medium pot, heat milk over medium until hot, but not boiling. In a medium bowl whisk together whole eggs and yolks, salt, and remaining 1/2 cup sugar. While whisking, ladle some milk into the egg mixture. Whisk in remaining milk, one ladle at a time. Strain through a fine sieve into a large liquid measuring cup, and stir in vanilla. Divide custard evenly among ramekins.",
+        "Transfer roasting pan to oven. Add enough boiling water to come halfway up the sides of the ramekins. Bake until custards are just set, about 35 minutes.",
+        "With tongs, remove ramekins from hot water and let cool slightly. Cover and refrigerate until cold, at least 3 hours (or up to 3 days). To unmold, run a sharp knife around inside of each ramekins and invert onto a serving plate, gently shaking to release."],
+        "calories":"400"
+      },
+      {
+        "recipe":"dragon crab salad",
+        "ingredients":["crab","avocado","corn","apple","clementine","lettuce","mayonnaise","lemon","carrot","olive oil","lolorosso"],
+        "image":"pics/dragonCrabSalad.jpeg",
+        "instruction":["Cut the  lettuce and the lolorosso",
+        "mix the crab with mayonnaise, lemon and oil","cut the fruits",
+        "combine the crab with the fruits and vegetables"],
+        "calories":"400"
       }
 ]
