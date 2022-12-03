@@ -11,6 +11,36 @@ for(let i=0; i<sessionStorage.length; i=i+1){
 
 sessionStorage.clear();
 
+
+//--------------------------------------------functions to be used-------------------------------------//
+function count(set){
+  let count = 0;
+  for(let i=0; i<user_inputs.length; i=i+1){
+   
+    if(set.has(user_inputs[i])){
+
+       count = count + 1;
+    }
+  }
+  return count;
+}
+
+function hide(set){
+  let count = 0;
+  for(let i=0; i<user_inputs.length; i=i+1){
+    
+    if(set.has(user_inputs[i])){
+
+       count = count + 1;
+    }
+    
+  }
+  
+  if(count === 0){
+    return true;
+  }
+  return false;
+}
 //-------------------------------------Getting json data and using it---------------------------------------------------------//
 
 const resultContainer = document.querySelector('.result_container');
@@ -29,19 +59,8 @@ fetch("lebanesefood.json").then(function(response){
            recipeIngredients.add(recipes.ingredients[i]);
          }
 
-      function count(){
-        let count = 0;
-        for(let i=0; i<user_inputs.length; i=i+1){
-         
-          if(recipeIngredients.has(user_inputs[i])){
-
-             count = count + 1;
-          }
-        }
-        return count;
-      }
  
-      recipeIngredientsMatching.set(recipes,count());
+      recipeIngredientsMatching.set(recipes,count(recipeIngredients));
 
   });
 
@@ -53,23 +72,6 @@ fetch("lebanesefood.json").then(function(response){
          for(let i=0; i<recipes.ingredients.length; i=i+1){
            recipeIngredients.add(recipes.ingredients[i]);
          }
-
-    function hide(){
-      let count = 0;
-      for(let i=0; i<user_inputs.length; i=i+1){
-        
-        if(recipeIngredients.has(user_inputs[i])){
-
-           count = count + 1;
-        }
-        
-      }
-      
-      if(count === 0){
-        return true;
-      }
-      return false;
-    }
 
          //everything related to the result, creating the DOM
          const recipe = document.createElement('div');
@@ -128,7 +130,7 @@ fetch("lebanesefood.json").then(function(response){
          //creating the resultsClicked DOM ends here
 
 
-    if(hide()){
+    if(hide(recipeIngredients)){
       recipe.classList.add('hide');
     } 
 
