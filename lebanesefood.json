@@ -386,7 +386,7 @@
        },
        {
         "recipe":"chicken curry",
-        "ingredients":["curry powder","garlic","ginger","coriander","coconut milk","chicken broth","peas","chicken","onion","salt","pepper"],
+        "ingredients":["curry powder","garlic","ginger","coriander","coconut milk","chicken","peas","chicken","onion","salt","pepper"],
         "image":"pics/chickenCurry.jpg",
         "instruction":["Heat oil in a skillet over medium high heat. Cook garlic, ginger and onion for 3 minutes until onion is translucent.",
         "Add chicken and cook until it it changes from pink to white.",
@@ -713,6 +713,83 @@
   },
   {
     "recipe":"grilled potatoes",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"green beans and meat",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"green beans salad",
+    "ingredients":["lemon","garlic","green beans","olive oil"],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"fruit cake",
+    "ingredients":["dry grapes","flour","eggs"],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"fondant",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"cheese manouche",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"salmon salad",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"salmon sushi",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"california roll",
+    "ingredients":["crab","caviar"],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"spicy potatoes",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"soujok",
+    "ingredients":[],
+    "image":"",
+    "instruction":[],
+    "calories":""
+  },
+  {
+    "recipe":"fish",
     "ingredients":[],
     "image":"",
     "instruction":[],

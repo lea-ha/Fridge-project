@@ -59,7 +59,6 @@ fetch("lebanesefood.json").then(function(response){
            recipeIngredients.add(recipes.ingredients[i]);
          }
 
- 
       recipeIngredientsMatching.set(recipes,count(recipeIngredients));
 
   });
