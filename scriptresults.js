@@ -8,7 +8,7 @@ for(let i=0; i<sessionStorage.length; i=i+1){
         idx=idx+1;
     }
 }
-
+console.log(user_inputs);
 sessionStorage.clear();
 
 
