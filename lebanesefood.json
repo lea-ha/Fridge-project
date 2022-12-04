@@ -566,14 +566,14 @@
 
 
  {
-  "recipe":"grilled pineapple shrims skewers",
+  "recipe":"grilled pineapple shrimps skewers",
   "ingredients":["pineapple","shrimps","fish seasoning","olive oil","lemon", "salt"],
-  "image":"pics/shrimpspineappleskewers.png",
+  "image":"pics/pineappleShrimps.jpg",
   "instruction":["marinate the shrimps with olive oil, lemon juice, fish seasoning and salt, and set them aside ",
                 " cut the pineapple into small cube, ",
                 " on each skewer alternate pineapple and shrimps",
                 " grill them 2 minutes on each side or until shrimp is ready." ], 
-  "calories":""
+  "calories":"330"
 },
 
 {
@@ -589,7 +589,7 @@
   "calories":"144"
 },
 {
-  "recipe":"kishk ",
+  "recipe":"kishk",
   "ingredients":["kishk","garlic","butter"],
   "image": "pics/kishk.png",
   "instruction":["cut the garlic into small pieces, and stir fry with butter.",
@@ -686,21 +686,7 @@
 
 
 
-
-   {
-    "recipe":"grilled pineapple sweet chili shrimps",
-    "ingredients":["pineapple","shrimps","coconut milk","chili"],
-    "image":"pics/pineappleShrimps.jpg",
-    "instruction":[],
-    "calories":""
-  },
-  {
-    "recipe":"pasta carbonara",
-    "ingredients":["pasta","bacon"],
-    "image":"",
-    "instruction":[],
-    "calories":""
-  },
+ 
   {
     "recipe":"Kibbe eras",
     "ingredients":[],
@@ -718,20 +704,6 @@
   {
     "recipe":"Bulgur and tomato",
     "ingredients":["bulgur","tomato"],
-    "image":"",
-    "instruction":[],
-    "calories":""
-  },
-  {
-    "recipe":"eggplant and meat",
-    "ingredients":[],
-    "image":"",
-    "instruction":[],
-    "calories":""
-  },
-  {
-    "recipe":"eggs and potatoes",
-    "ingredients":["eggs","potato"],
     "image":"",
     "instruction":[],
     "calories":""
@@ -871,13 +843,6 @@
   },
   {
     "recipe":"fondant",
-    "ingredients":[],
-    "image":"",
-    "instruction":[],
-    "calories":""
-  },
-  {
-    "recipe":"cheese manouche",
     "ingredients":[],
     "image":"",
     "instruction":[],
