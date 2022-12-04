@@ -2,6 +2,8 @@ const ingredientsList = document.querySelector('.results_list');
 const ingredientsDiv = document.querySelector(".Div_results");
 const searchInput = document.querySelector("#new_single_ingredient");
 
+
+
 let resultsSet = new Set();
 
 fetch("lebanesefood.json").then(function(response){
@@ -14,7 +16,7 @@ fetch("lebanesefood.json").then(function(response){
       });
   })
   const results = Array.from(resultsSet);
-  results.sort(); //find an optimal solution
+  results.sort(); 
   for(let x=0; x<results.length; x=x+1){
 
   let li = document.createElement('li');
@@ -40,12 +42,12 @@ fetch("lebanesefood.json").then(function(response){
 
 //saving the user's input
 const allCheckboxes = document.querySelectorAll(".liCheckbox");
-let selectFilterOptions = document.querySelector('#select_options');
 
 
 for(let x=0; x<allCheckboxes.length; x++){
 allCheckboxes[x].addEventListener('click', ()=>{
   const checkboxInnerText = allCheckboxes[x].parentElement.innerText;
+  allCheckboxes[x].parentElement.classList.toggle('clicked',allCheckboxes[x].clicked);
   if(allCheckboxes[x].checked){
     if(!sessionStorage.getItem(checkboxInnerText)){
       sessionStorage.setItem(checkboxInnerText,checkboxInnerText);
@@ -58,15 +60,6 @@ allCheckboxes[x].addEventListener('click', ()=>{
   }
 })
 }
-
-let filterOption = 'Calories';
-sessionStorage.setItem('FilterOpt', filterOption);
-
-selectFilterOptions.addEventListener('change',e =>{
-filterOption = e.target.value;
-sessionStorage.setItem('FilterOpt', filterOption);
-  //it's in the same 'array' as the ingredients
- })
 
 })
 

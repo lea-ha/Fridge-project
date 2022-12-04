@@ -613,7 +613,7 @@
 "instruction":["Preheat the oven to 200 degerees C",
 "Bake in the oven for 7 min at 200 degrees C the dough with the cheese on it", 
 "Remove from the oven and enjoy them warm or cold"],
-"calories":""
+"calories":"300"
 },
 
 {
@@ -681,6 +681,236 @@
               " in the plate combine cooked dough and laban"],
   "calories":"338"
 },
+{
+  "recipe":"Pasta tagliatelle",
+  "ingredients":["butter", "pasta", "mushroom", "onion", "garlic", "salt", "pepper", "parsley", "parmesan", "white wine", "sprinkle"],
+ "image":"pics/pasta-tagliatelle.jpg",
+ "instruction":["Start with melting the butter with olive oil in a large frying pan on medium-high heat. Sauté the onion until soft.",
+ " Add the garlic and sauté another minute. Then add the mushrooms. Cook until soft. Add white wine and cook until it reduces by half. Simmer for 5 minutes, then add the parsley and season with salt and pepper.",
+ " Add the pasta, toss with the sauce, and sprinkle with Parmesan cheese."],
+ "calories":"403"
+},
+{
+ "recipe":"sheikh el mehshi",
+ "ingredients":["eggplant", "meat", "onions", "salt", "cinnamon", "allspice", "black pepper", "tomato sauce", "nuts", "vegetable oil"],
+ "image":"pics/sheikh-el-mehshi.jpg",
+ "instruction":["Prepare the eggplants by cutting a pocket using a knife and deep fry them in a large pan saute onions till soft, then add minced meat and cook thoroughly Season with salt , cinnamon, allspice, black pepper and Lebanese 7-spices mix Add tomato paste and pine nuts. ",
+ "Cook for 5 minutes Stuff the Eggplants generously. In a baking tray, spread the sauce and then add the eggplants. Cook in the oven on medium heat in the lower rack for about 20 minutes.",
+ " Garish with chopped parsley "],
+ "calories":"330"
+},
+{
+ "recipe":"moghrabieh",
+ "ingredients":["chickpeas", "onion", "cinnamon", "pepper", "cumin", "salt", "olive oil"],
+ "image":"pics/moghrabieh.jpg",
+ "instruction":["Peel onions and set aside. Wash (canned) chickpeas thoroughly and allow to drain, set aside. In a pot over high heat, heat dairy-free butter and oil, stir through onions, and sweat until translucent and golden brown. Approximately 5 minutes with the lid on, stirring occasionally.",
+ " In the same pot, add Moghrabieh (pearl couscous) and the stock cook for 15 minutes with the lid on, stirring occasionally to avoid moghrabieh sticking. Add chickpeas, browned onions and spices.",
+ " Coat everything evenly, then add 1½ cups of stock. Turn heat to low-med, cover with a lid and cook for another 10 minutes, stirring occasionally. Serve warm, either in a bowl or in a wrap."],
+ "calories":""
+},
+{
+ "recipe":"molokhia stew",
+ "ingredients":["jute leaves", "chicken", "olive oil", "black pepper", "cloves", "onion", "salt", "garlic", "vegetable oil", "rice"],
+ "image":"pics/molokhia-stew.jpg",
+ "instruction":["In a medium sized pot, heat one tablespoon of olive oil. Season the chicken breast with one teaspoon of salt and black pepper. Cook over high heat for about 2 minutes per side. Add the bay leaves, cloves, onion, remaining salt and about 6 cups of water.Cook on high heat until boiling, then lower the heat to medium and cook until chicken has cooked through, about 20-30 minutes. Set cooked chicken aside to cool. Once cooled, shred the chicken. Add 10 cups of the dried molokhia leaves to a large mixing bowl. Remove any stems or brown/yellow leaves. Heat up a kettle of water until just boiling, and pour over the leaves to re-hydrate them.Let soak for at least 5 minutes. Drain the water and pour the leaves into a colander over the bowl. Peel the garlic and cut in half or thirds (reserve about 5 whole cloves of garlic aside). Place in a mortar and top with a teaspoon of salt. Crush the garlic until no chunks remain. In a large deep pot, heat up ¼ cup of ghee or vegetable oil. Add chopped cilantro and crushed garlic and sauté over medium heat for 5 minutes. Add the washed and squeezed-dry molokhia, and whole cloves of garlic to the cilantro/garlic mix and sauté for about 5 minutes. Prepare the rice while the Molokhia is cooking. Add the shredded chicken, dried coriander, and lemon juice to the Molokhia stew. Taste for salt and add if needed. Let it simmer for 5 more minutes."],
+ "calories":"597"
+},
+{
+ "recipe":"beef strogunoff",
+ "ingredients":["beef", "onion", "mushroom", "flour", "sour cream", "beef broth", "dijon mustard", "butter"],
+ "image":"pics/beef-strogunoff.jpg",
+ "instruction":["Use your fist (or rolling pin or mallet) to flatten the steaks to about 3/4cm / 1/3 thick. Slice into 5mm / 1/5 strips (cut long ones in half), discarding excess fat.",
+ " Sprinkle with a pinch of salt and pepper. Heat 1 tbsp oil in a large skillet over high heat.",
+ "Scatter half the beef in the skillet, QUICKLY spread it with tongs. Leave untouched for 30 seconds until browned. Turn beef quickly (as best you can!). ",
+ "Leave untouched for 30 seconds to brown. Immediately remove onto a plate. Don't worry about pink bits and that it will be raw inside. Add remaining 1 tbsp oil and repeat with remaining beef.",
+ "Turn heat down to medium high. Add butter, melt. Then add onions, cook for 1 minute, then add mushrooms. Cook mushrooms until golden. ",
+ "Scrape bottom of fry pan to get all the golden bits off. Add flour, cook, stirring, for 1 minute. Add half the broth while stirring.",
+ "Once incorporated, add remaining broth. Stir, then add sour cream and mustard. Stir until incorporated.",
+ "Bring to simmer ,then reduce heat to medium low. Once it thickens to the consistency of pouring cream (3 - 5 minutes), adjust salt and pepper to taste.",
+ "Add beef back in (including plate juices). Simmer for 1 minute, then remove from stove immediately. Serve over pasta or egg noodles, sprinkled with chives if desired."],
+ "calories":"394"
+},
+{
+ "recipe":"bamieh",
+ "ingredients":["olive oil", "onion", "salt", "pepper", "meat", "cinnamon", "cumin", "coriander", "garlic", "tomato", "beef", "okra"],
+ "image":"pics/bamieh.jpg",
+ "instruction":["Heat vegetable oil in a large pot over medium heat. Stir in onion, salt, and black pepper; cook and stir until onion has softened and turned a light golden brown, about 10 minutes.",
+ "Add lamb, cinnamon, cumin, coriander, and garlic paste. Cook on medium heat, stirring occasionally, until lamb starts to brown, 10 to 15 minutes.",
+ "Stir in tomatoes and tomato paste; cook and stir for another 5 minutes. Dissolve beef bouillon cubes in 4 cups boiling water.",
+ "Pour broth into the pot with lamb and stir in okra. If necessary, add water to cover okra. Cover and simmer for 30 minutes, stirring occasionally.",
+ "Remove the cover and cook until lamb is very tender and stew reaches desired thickness, 45 minutes to 1 hour."],
+ "calories":"330"
+},
+{
+  "recipe":"Taco soup",
+  "ingredients":["ground beef","taco seasoning","water","mild chili beans","whole kernel corn","pinto beans","tomatoes","green chiles","ranch salad dressing"],
+  "image":"pics/tacoSoup.jpeg",
+  "instruction":["In a Dutch oven, cook beef over medium heat until no longer pink, breaking it into crumbles; drain.",
+  "Add taco seasoning and mix well. Stir in the remaining ingredients.",
+  "Bring to a boil. Reduce heat; simmer, uncovered, for 15 minutes or until heated through, stirring occasionally."],
+  "calories":"370"
+},
+{
+  "recipe":"Chicken & Veggie Stir-Fry",
+  "ingredients":["chicken","salt","pepper","broccoli","mushroom","oil","garlic","ginger","sesame oil","soy sauce","brown sugar","chicken broth","flour"],
+  "image":"pics/ChickenandVeggieStirFry.jpg",
+  "instruction":["In a large pan on medium-high heat, add 1 tablespoon of oil. Once the oil is hot, add chicken, season with salt and pepper, and sauté until cooked through and browned. Remove cooked chicken from pan and set aside.",
+  "In the same pan, heat 1 tablespoon of oil and add mushrooms. When the mushrooms start to soften, add broccoli florets and stir-fry until the broccoli is tender. Remove cooked mushrooms and broccoli from the pan and set aside.",
+  "Add 1 tablespoon of oil to the pan and sauté garlic and ginger until fragrant. Add the remaining sauce ingredients and stir until smooth.",
+  "Return the chicken and vegetables to the saucy pan, stir until heated through.",
+  "Serve with hot rice or noodles."],
+  "calories":"272"
+},
+{
+  "recipe":"Butter Chicken",
+  "ingredients":["chicken breast","salt","pepper","chili powder","turmeric","butter","yellow onion","garam masala","cumin","cayenne pepper","ginger","garlic","cinnamon stick","tomato sauce","water","heavy cream","rice","fresh cilantro"],
+  "image":"pics/butterChicken.jpg",
+  "instruction":["In a large bowl, season the chicken breast with salt, pepper, 1 teaspoon of chili powder, and the teaspoon of turmeric. Let sit for 15 minutes to marinate.",
+  "Melt 2 tablespoons of butter in a large pot over medium heat. Brown the chicken, then remove from the pot.",
+  "Melt another 2 tablespoons of butter in the pot, then add the onion, garam masala, remaining teaspoon of chili powder, the cumin, ginger, garlic, cayenne, cinnamon, salt and pepper. Cook until fragrant.",
+  "Add the tomato sauce and bring to a simmer.",
+  "Add the water and cream and return to a simmer.",
+  "Return the chicken to the pot, cover, and simmer for another 10-15 minutes.",
+  "Stir in the last 2 tablespoons of butter and season with more salt and pepper to taste.",
+  "Serve the chicken over rice and garnish with cilantro."],
+  "calories":"799"
+},
+{
+  "recipe":"Chicken Alfredo Penne",
+  "ingredients":["chicken breast(680 g)","butter","dried oregano","dried basil","salt","pepper","pasta","fresh parsley","parmesan cheese","cloves garlic","flour","milk"],
+  "image":"pics/ChickenAlfredoPenne.jpg",
+  "instruction":["In a pan over medium-high heat, melt butter, then add the chicken breast.",
+  "Season with salt, pepper, oregano, and basil. Cook 8-10 minutes or until chicken is fully cooked. Remove from heat and set chicken aside.",
+  "In the same pan over medium heat, melt butter and add the garlic. Cook until the garlic begins to soften.",
+  "Add half of the flour to the garlic and butter, stirring until incorporated. Then add the rest of the flour and stir.",
+  "Pour in the milk a little bit at a time, stirring well in between, until fully incorporated and sauce begins to thicken.",
+  "Season with salt, pepper, oregano, and basil, and stir well to incorporate.",
+  "Add parmesan cheese and stir until melted.",
+  "Pour the sauce over cooked penne pasta, add the chicken and mix well.",
+  "Add parsley and extra parmesan. Mix well."],
+  "calories":"464"
+},
+{
+  "recipe":"Pesto Chicken & Veggies",
+  "ingredients":["olive oil","chicken thighs","salt","pepper","green beans","cherry tomato","basil pesto"],
+  "image":"pics/ PestoChickenandVeggies.jpeg",
+  "instruction":["In a large pan, heat olive oil and add chicken thighs.",
+  "Season with salt and pepper. When the chicken is completely cooked through, remove from pan.",
+  "Slice into strips, and set aside.",
+  "Add green beans and cook until crisp tender.",
+  "Return the chicken strips to the pan, then add tomatoes and pesto. Stir until fully incorporated.",
+  "Serve immediately or divide into 4 food storage containers and store in the refrigerator. Can be kept refrigerated for up to 4 days."],
+  "calories":"394"
+},
+{
+  "recipe":"beef and broccoli",
+  "ingredients":["soy sauce","chicken","honey","rice wine vinegar","brown sugar","garlic","sesame oil","cornstarch","sriracha","ground ginger","red pepper flakes","olive oil","broccoli"],
+  "image":"pics/beefandbroccoli.jpg",
+  "instruction":["In a medium bowl, whisk together soy sauce, chicken stock, honey, vinegar, brown sugar, garlic, sesame oil, cornstarch, Sriracha, ginger, red pepper flakes and 1/4 cup water; set aside.",
+  "Heat olive oil in a large skillet over medium high heat. Add steak and cook, flipping once, until browned, about 3-4 minutes.",
+  "Stir in broccoli and soy sauce mixture until tender and slightly thickened, about 3-4 minutes."],
+  "calories":"570"
+},
+{
+  "recipe":"Pan Sausage and Veggies",
+  "ingredients":["diced baby red potato","trimmed and halved green beans","head of broccoli","chopped bell peppers","smoked sausage","olive oil","red pepper flakes","paprika","garlic powder","dried oregano","dried parsley","salt","pepper"],
+  "image":"pics/ PanSausageandVeggies.jpg",
+  "instructions":["Preheat the oven to 400 degrees F.",
+  "Wash and chop the unpeeled baby red potatoes.",
+  "Trim the green beans and then cut in half, chop the broccoli into florets, chop the peppers into 1-inch pieces, and coin the sausage in thick (1/2-inch) slices.",
+  "Place all the veggies and sausage on the prepared sheet pan. Pour the olive oil and all the seasonings on top. Season to taste with salt and pepper.",
+  "Use your hands to toss and evenly coat all the veggies and sausage with seasonings. Space everything out so it has plenty of space to cook. If veggies are crammed/overlapping they'll steam instead of roast and will take longer to cook.",
+  "Bake 15 minutes, remove from the oven and flip/stir all the veggies around. Return to the oven and bake for another 10-15 minutes or until vegetables are crisp-tender."],
+  "calories":"692"
+},
+{
+  "recipe":"Chickpea Shakshuka",
+  "ingredients":["olive","onion","red bell pepper","garlic","tomatoes","tomato paste","coconut sugar","salt","paprika","ground cumin","chili powder","ground cinnamon","cayenne pepper","cardamom","coriander"," cans cooked chickpeas","green olives"],
+  "image":"pics/ChickpeaShakshuka.jpg",
+  "instruction":["Heat a large rimmed metal or cast iron skillet over medium heat. Once hot, add olive oil, onion, bell pepper and garlic.",
+  "Add tomato puree or diced tomatoes, tomato paste, coconut sugar, sea salt, paprika, cumin, chili powder, cinnamon, cayenne pepper, cardamom, and coriander. Stir to combine.",
+  "Bring to a simmer over medium heat and cook for 2-3 minutes, stirring frequently.",
+  "Add chickpeas and olives (optional). Stir to combine. Then reduce heat to medium-low and simmer for 15-20 minutes to allow the flavors to develop and marry with the beans.",
+  "Taste and adjust seasonings as needed, adding more cumin or paprika for smokiness, cayenne for heat, coconut sugar for sweetness, cardamom and coriander for earthiness, chili powder for smoke/heat, or olives for saltiness and to balance the tomato flavor. Cook longer, as needed, to develop flavors.",
+  "Serve as is or with bread, pasta, or rice. I loved this alongside a kale salad, and it went especially well over gluten-free pasta! Garnish with fresh lemon juice, additional olives, and cilantro or parsley for extra flavor."],
+  "calories":"221"
+},
+ {
+  "recipe":"Spicy tuna avocado wrap",
+  "ingredients":["tuna","avocado","sriracha","mustard","celery","red onion","green onions","fresh cilantro","salt","pepper","lettuce","carrots","tortilla"],
+  "image":"pics/SpicyTunaAvocadoWrap.jpg",
+  "instructions":["In a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.",
+  "To assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and serve"],
+  "calories":"296"
+},
+{
+  "recipe":"Lo Mein",
+  "ingredients":["soy sauce","oyster sauce","sesame oil","sugar","garlic","noodles","grren onions","carrots","red peppers","cabbage","mushrooms","mirin"],
+  "image":"pics/LoMein.jpg",
+  "instruction":["Shake all the sauce ingredients together in a jar(dark soy sauce, light soy sauce, oyster sauce, sesame oil, sugar, clove of garlic)",
+  "Cook the noodles according to package directions. Drain and set aside.",
+  "Heat the sesame oil in a large wok or skillet. Add the green onions (white parts) and vegetables to the hot pan. Stir fry until fork-tender, about 5 minutes.",
+  "Add the mirin to loosen the browned bits up off the bottom of the pan. Add the cooked noodles and about half of the sauce – toss around in the hot pan to combine.",
+  "Add more sauce if needed. Serve topped with remaining green onions."],
+  "calories":"236"
+},
+  {
+  "recipe":"Cashew Chicken",
+  "ingredients":["soy sauce","maple syrup","garlic","ginger","white rice vinegar","chicken","olive oil","red peppers","broccoli","cornstarch","water","raw whole cashews"],
+  "image":"pics/ CashewChicken.jpg",
+  "instruction":["In a medium bowl, mix together soy sauce, maple syrup, minced garlic, grated ginger, and white rice vinegar. Set aside.",
+  "Next, prepare chicken breast by slicing into 1-inch chunks.",
+  "Turn on the Instant Pot's sauté feature. Heat 1.5 tablespoons of olive oil.",
+  "When olive oil is fragrant, add diced chicken breast and cook for 1 to 2 minutes to brown.",
+  "Turn off the sauté feature and add stir fry sauce.",
+  "Cook on manual high pressure for 4 minutes.",
+  "Dice 2 large red peppers and cut broccoli into bite-sized florets and set them aside. In a small bowl, whisk together 1/4 cup of water and 1 tablespoon of cornstarch. Set aside.",
+  "Once the Instant Pot beeps, quick release to release the steam that has built up.",
+  "Remove top and add chopped veggies, the slurry, and raw cashews to the Instant Pot and toss everything together.",
+  "Turn on the Instant Pot's sauté feature and cook for around 3 minutes or until sauce has thickened.",
+  "Turn off the sauté feature and immediately cover the Instant Pot for around 5 minutes to let the veggies steam and fully cook.",
+  "Remove lid and assess how cooked the veggies are. If they need to continue cooking, put the top back on to continue steaming. Remember, no one likes overcooked veggies.",
+  "Serve over your favorite grain."],
+  "calories":"355"
+  },
+  {
+  "recipe":"Spinach pie",
+  "ingredients":["puff pastry","spinach","onion","garlic","olive oil","cottage cheese","grated parmesan","nutmeg","salt","pepper","eggs"],
+  "image":"pics/SpinachPie.jpg",
+  "instruction":["Dice the onion and mince the garlic. Add the onion, garlic, and olive oil to a skillet and sauté over medium heat until the onions are soft and translucent. Set the onions and garlic aside to cool slightly.",
+  "Add the cottage cheese, Parmesan, nutmeg, salt, pepper, and two of the eggs to a bowl, and stir to combine.",
+  "Squeeze out as much water as possible from the thawed spinach. Add the squeezed spinach and sautéed onion and garlic to the bowl with the cheese mixture. Stir to combine again.",
+  "Place a sheet of parchment paper on your work surface, and roll the thawed puff pastry out until it's just slightly larger, about 10x10 inches.",
+  "Drape the rolled pastry dough out over a pie plate. Spread the spinach and cheese mixture inside the pastry dough, then take the corners and fold them in toward the center.",
+  "Lightly whisk the remaining egg and brush it over the surface of the pastry dough. Bake the spinach pie for about 45 minutes, or until the pasty on top has puffed up significantly and turned golden brown.",
+  "Remove the spinach pie from the oven, let sit for about five minutes, then slice into eight pieces and serve."],
+  "calories":"264"
+  },
+  {
+  "recipe":"Ratatouille",
+  "ingredients":["eggplant","tomato","squashes","zucchini","olive oil","onion","garlic","bell pepper","basil","parsley","thyme"],
+  "image":"pics/Ratatoille.jpg",
+  "instruction":["Preheat the oven for 375˚F.",
+  "Slice the eggplant, tomatoes, squash, and zucchini, then set aside.",
+  "Make the sauce: Heat the olive oil in a 12-inch oven-safe pan over medium-high heat. Sauté the onion, garlic, and bell peppers until soft, about 10 minutes. Season with salt and pepper, then add the crushed tomatoes. Stir until the ingredients are fully incorporated. Remove from heat, then add the basil. Stir once more, then smooth the surface of the sauce with a spatula.",
+  "Arrange the sliced veggies in alternating patterns, (for example, eggplant, tomato, squash, zucchini) on top of the sauce from the outer edge to the middle of the pan. Season with salt and pepper.",
+  "Make the herb seasoning: In a small bowl, mix together the basil, garlic, parsley, thyme, salt, pepper, and olive oil. Spoon the herb seasoning over the vegetables.",
+  "Cover the pan with foil and bake for 40 minutes. Uncover, then bake for another 20 minutes, until the vegetables are softened.",
+  "Serve while hot as a main dish or side. The ratatouille is also excellent the next day--cover with foil and reheat in a 350˚F oven for 15 minutes, or simply microwave to desired temperature."],
+  "calories":"230"
+  },
+  {
+  "recipe":"Potato soup",
+  "ingredients":["potato","water","milk","butter","salt","pepper"],
+  "image":"pics/PotatoSoup.jpg",
+  "instruction":["Cover potatoes with water in a large soup pot.",
+  "Cook over medium heat until fork tender, about 20 minutes. Remove from heat and drain.",
+  "Add milk and butter to the potatoes. Place back on medium heat and allow milk to bubble slightly around the edges of the soup pot, about 5 to 10 minutes.",
+  "Remove from heat and ladle into soup bowls.",
+  "Serve with salt and pepper to taste."],
+  "calories":"171"
+  },
+  
 
 
 
@@ -701,20 +931,7 @@
     "instruction":[],
     "calories":""
   },
-  {
-    "recipe":"Bulgur and tomato",
-    "ingredients":["bulgur","tomato"],
-    "image":"",
-    "instruction":[],
-    "calories":""
-  },
-  {
-    "recipe":"shish barak",
-    "ingredients":[],
-    "image":"",
-    "instruction":[],
-    "calories":""
-  },
+  
   {
     "recipe":"Lebanese Kafta",
     "ingredients":[],
@@ -801,13 +1018,6 @@
   },
   {
     "recipe":"mushroom soup",
-    "ingredients":[],
-    "image":"",
-    "instruction":[],
-    "calories":""
-  },
-  {
-    "recipe":"stuffed turkey",
     "ingredients":[],
     "image":"",
     "instruction":[],

@@ -1,12 +1,10 @@
 //---------------------------------------Getting the user's input------------------------------------------//
 let user_inputs=[]; //it contains the user's ingredients
-let filter=sessionStorage.getItem('FilterOpt');
 let idx = 0;
 for(let i=0; i<sessionStorage.length; i=i+1){
-    if(sessionStorage.key(i)!=='FilterOpt'){
         user_inputs[idx] = sessionStorage.key(i).toLowerCase();
         idx=idx+1;
-    }
+    
 }
 
 sessionStorage.clear();
