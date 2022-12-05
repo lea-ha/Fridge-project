@@ -21,6 +21,10 @@ function count(set){
   return count;
 }
 
+function countMissing(set){
+  return set.length - count(set);
+}
+
 function hide(set){
   let count = 0;
   for(let i=0; i<user_inputs.length; i=i+1){
