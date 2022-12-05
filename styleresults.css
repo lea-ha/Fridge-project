@@ -176,6 +176,12 @@ body{
 }
 /********************************************************/
 
+.addremove{
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 
  
  

@@ -733,7 +733,7 @@
 {
 "recipe":"bamieh",
 "ingredients":["olive oil", "onion","meat", "cinnamon", "cumin", "coriander", "garlic", "tomato","okra"],
-"image":"pics/bamieh.jpg",
+"image":"pics/bamieh.jpeg",
 "instruction":["Heat vegetable oil in a large pot over medium heat. Stir in onion, salt, and black pepper; cook and stir until onion has softened and turned a light golden brown, about 10 minutes.",
 "Add lamb, cinnamon, cumin, coriander, and garlic paste. Cook on medium heat, stirring occasionally, until lamb starts to brown, 10 to 15 minutes.",
 "Stir in tomatoes and tomato paste; cook and stir for another 5 minutes. Dissolve beef bouillon cubes in 4 cups boiling water.",
@@ -813,7 +813,7 @@
 },
 {
 "recipe":"Chickpea Shakshuka",
-"ingredients":["olive","onion","bell pepper","garlic","tomato","tomato paste","coconut sugar","paprika","cumin","chili powder","cinnamon","cardamom","coriander","chickpeas","olives"],
+"ingredients":["olive","onion","bell pepper","garlic","tomato","tomato sauce","coconut sugar","paprika","cumin","chili powder","cinnamon","cardamom","coriander","chickpeas"],
 "image":"pics/ChickpeaShakshuka.jpg",
 "instruction":["Heat a large rimmed metal or cast iron skillet over medium heat. Once hot, add olive oil, onion, bell pepper and garlic.",
 "Add tomato puree or diced tomatoes, tomato paste, coconut sugar, sea salt, paprika, cumin, chili powder, cinnamon, cayenne pepper, cardamom, and coriander. Stir to combine.",

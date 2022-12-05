@@ -101,6 +101,21 @@ fetch("lebanesefood.json").then(function(response){
          const exitButton = document.createElement('button');
          exitButton.className = "xButton";
          exitButton.innerHTML = "&times";
+
+
+
+         
+
+         //see toggle add remove
+         const addremovefavorites = document.createElement('button');
+         addremovefavorites.className="addremove";
+         addremovefavorites.innerText="Add to favorites";
+
+         const domaddremove = document.querySelector('.addremove');
+
+
+
+
    
          const ingredientsList = document.createElement('p');
          ingredientsList.className = "ingr_list";
@@ -126,6 +141,8 @@ fetch("lebanesefood.json").then(function(response){
          instructionsDiv.appendChild(ol); 
          recipeClicked.appendChild(instructionsDiv);
          previewContainer.appendChild(recipeClicked);
+
+         recipeClicked.appendChild(addremovefavorites);
          //creating the resultsClicked DOM ends here
 
 
